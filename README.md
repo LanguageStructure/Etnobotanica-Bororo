@@ -1,4 +1,32 @@
 # Etnobotânica Bororo
 
 
-Este repositório é uma coleção de dados sobre as plantas encontradas no território bororo.
+Coleção de dados sobre as plantas conhecidas pelo povo bororo, seu manejo, e uso em seu território.
+
+Inclui:
+
++ Nome(s) no Brasil 
++ Nome(s) Bororo
++ Nome científico (ie jokodo)
++ Família (jebatodae)
++ Uso bororo (inuba Boe erore ji)
++ Período de frutificação (kurodyreboe kurodyre kejewy jory)
++ Ambiente (kaiba rakody nowy kurudureboe jeture)
++ Abundância em Piebaga
++ Abundância em  Korogedy Paru
++ Abundância em  Tadarimana
++ Abundância em Meruri
+
+## Editor
+
+Fabrício Ferraz Gerardi
+
+## Autores
+
++ Aldeias: Korogedy Pary, Piebaga, Tadarimana 
++ Fabrício Ferraz Gerardi
++ Mariel Kujibo Ekureu
+
+## Colaboradores
+
++ Rudnei
