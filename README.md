@@ -3,6 +3,8 @@
 
 Coleção de dados sobre as plantas conhecidas pelo povo bororo, seu manejo, e uso em seu território.
 
+Para acessar o banco de dados, acesse: [Etnobotânica Bororo](https://boeenomoto.pythonanywhere.com/etnobotanica/index.html).
+
 Inclui:
 
 + Nome(s) no Brasil 
