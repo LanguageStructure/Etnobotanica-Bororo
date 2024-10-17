@@ -32,3 +32,8 @@ Fabrício Ferraz Gerardi
 ## Colaboradores
 
 + Pablo Rudnei Alves Joware Ereia
+
+## Citar
+
+[![DOI](https://zenodo.org/badge/873728982.svg)](https://doi.org/10.5281/zenodo.13947723)
+
