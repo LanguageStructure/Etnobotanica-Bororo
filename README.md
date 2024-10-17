@@ -31,4 +31,4 @@ Fabrício Ferraz Gerardi
 
 ## Colaboradores
 
-+ Rudnei
++ Pablo Rudnei Alves Joware Ereia
