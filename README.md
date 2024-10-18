@@ -35,5 +35,7 @@ Fabrício Ferraz Gerardi
 
 ## Citar
 
-Ferraz Gerardi, Fabrício. (2024). LanguageStructure/Etnobotanica-Bororo: Versão inicial (v0.1). Zenodo.[![DOI](https://zenodo.org/badge/873728982.svg)](https://doi.org/10.5281/zenodo.13947723)
+Ferraz Gerardi, Fabrício. (2024). LanguageStructure/Etnobotanica-Bororo: Versão inicial (v0.1). Zenodo. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13953064.svg)](https://doi.org/10.5281/zenodo.13953064)
+
+
 
