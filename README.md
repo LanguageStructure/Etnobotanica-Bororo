@@ -7,8 +7,8 @@ Para acessar o banco de dados, acesse: [Etnobotânica Bororo](https://boeenomoto
 
 Inclui:
 
-+ Nome(s) no Brasil 
-+ Nome(s) Bororo
++ Nome(s) no Brasil (ie remawy) 
++ Nome(s) Bororo (Boe enogiegidae)
 + Nome científico (ie jokodo)
 + Família (jebatodae)
 + Uso bororo (inuba Boe erore ji)
