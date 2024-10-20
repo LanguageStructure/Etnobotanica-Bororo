@@ -1,3215 +1,3344 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-    <meta charset='UTF-8'>
-    <title>etnobotânica bororo</title>
-    <style>
-        /* Table styling */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-        }
+  <meta charset='UTF-8'>
+  <title>etnobotânica bororo</title>
+  <style>
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
 
-        th, td {
-            border: 1px solid black; /* Adds a black border to each cell */
-            padding: 8px;            /* Adds padding inside the cells */
-            text-align: left;         /* Aligns text to the left */
-        }
+    th,
+    td {
+      border: 1px solid black;
+      /* Adds a black border to each cell */
+      padding: 8px;
+      /* Adds padding inside the cells */
+      text-align: left;
+      /* Aligns text to the left */
+    }
 
-        th {
-            background-color: #f2f2f2; /* Light gray background for headers */
-        }
+    th {
+      background-color: #f2f2f2;
+      /* Light gray background for headers */
+    }
 
-        tr:nth-child(even) {
-            background-color: #f9f9f9; /* Zebra striping for readability */
-        }
-    </style>
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+      /* Zebra striping for readability */
+    }
+  </style>
 </head>
+
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>nome_brasil</th>
-                <th>nome_bororo</th>
-                <th>nome_cientifico</th>
-                <th>familia</th>
-                <th>uso</th>
-                <th>periodo_de_frutificacao</th>
-                <th>ambiente</th>
-                <th>abundancia_piebaga</th>
-                <th>abundancia_korogedy</th>
-                <th>abundancia_tadarimana</th>
-                <th>imagem</th>
-            </tr>
-        </thead>
-        <tbody>
- <tr>
-<td>Abacaxi-do-mato / abacaxi-do-boku</td>
-<td>Nanai / morogorarewy</td>
-<td>Ananas anassoides (Baker) L.B. Sm.</td>
-<td>Bromieliaceae</td>
-<td></td>
-<td>Julho / agosto</td>
-<td>itura (pobo okwa)</td>
-<td>Makare</td>
-<td>biagare</td>
-<td>biagare</td>
- <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4032092300/media/317b77f2ae4ba143f6ede8f897f7d4f2</td>
- </tr>
+  <table>
+    <thead>
+      <tr>
+        <th>nome_brasil</th>
+        <th>nome_bororo</th>
+        <th>nome_cientifico</th>
+        <th>familia</th>
+        <th>uso</th>
+        <th>periodo_de_frutificacao</th>
+        <th>ambiente</th>
+        <th>abundancia_piebaga</th>
+        <th>abundancia_korogedy</th>
+        <th>abundancia_tadarimana</th>
+        <th>imagem</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Abacaxi-do-mato / abacaxi-do-boku</td>
+        <td>Nanai / morogorarewy</td>
+        <td>Ananas anassoides (Baker) L.B. Sm.</td>
+        <td>Bromieliaceae</td>
+        <td></td>
+        <td>Julho / agosto</td>
+        <td>itura (pobo okwa)</td>
+        <td>Makare</td>
+        <td>biagare</td>
+        <td>biagare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4032092300/media/317b77f2ae4ba143f6ede8f897f7d4f2
+        </td>
+      </tr>
 
- <tr>
-   <td>Abil</td>
-   <td>Bokogorewy / jokukuie tae</td>
-   <td>cf. Pouteria torta subsp. glabara T.D penn.</td>
-   <td>Sapotaceae</td>
-   <td>Ere kurody kowyje, ere kurudo tugeje tugudywo ce</td>
-   <td>Outubro a janeiro</td>
-   <td>itura (pobo okwa)</td>
-   <td>Makare</td>
-   <td>biagare</td>
-   <td>biagare</td>
-<td>https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Pouteria_torta_Radlk._subsp._gallifructa_%28Cronquist%29_T.D.Penn._%288165339526%29.jpg/560px-Pouteria_torta_Radlk._subsp._gallifructa_%28Cronquist%29_T.D.Penn._%288165339526%29.jpg</td>
- </tr>
- <tr>
-   <td>Aguapé</td>
-   <td>Pora</td>
-   <td>Echhornia crassipes (Mart.) Solms</td>
-   <td>Pontederiaceae</td>
-   <td>Nowy aru kuru remaure, boe ake epado ema, mare ima emaragodae. (Aroe rubo.)</td>
-   <td>Vegetativa</td>
-   <td>Boku</td>
-   <td>boe bokware</td>
-  <td>biagare</td>
-   <td>boe bokware</td>
-  <td>https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Eichhornia_crassipes_001.JPG/560px-Eichhornia_crassipes_001.JPG</td>
- </tr>
- <tr>
-   <td>Açoita-cavalo</td>
-   <td>Pariwa</td>
-   <td>Leuhea divaricata mart.</td>
-   <td>Malvaceae</td>
-   <td>Boe modo iwo tawyje, tugera magadywo ia boe ero tabo (turo monogodae, boe ero boe ego biadody</td>
-   <td>Maio a agosto</td>
-   <td>Itura</td>
-   <td>maka jokody kare</td>
-   <td>biagare</td>
-   <td>makare</td>
-   <td>https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Luehea_divaricata%2C_Iguazu_Falls%2C_Argentina.jpg/560px-Luehea_divaricata%2C_Iguazu_Falls%2C_Argentina.jpg</td>
- </tr>
- <tr>
-   <td>Algodão</td>
-   <td>Akigoamekurewy</td>
-   <td>Gossypium hirsutum L.</td>
-   <td>Malvaceae</td>
-   <td>Boere a codo kidoguro tabo, dure boere reko tuwia paruji tumeadae pemegawo boe ero jamedy boeji</td>
-   <td>Epoca de cultivo</td>
-   <td>Itura</td>
-   <td>biagare</td>
-   <td>maka jokody kare</td>
-   <td>makare</td>
- <td>https://upload.wikimedia.org/wikipedia/commons/6/6f/CottonBolls.jpg</td>
- </tr>
- <tr>
-   <td>Algodãozinho</td>
-   <td>Akigorewy (bacororoepa akigorewy)</td>
-   <td>Cochlospermum regium (Schrank) pilg.</td>
-   <td>Bixaceae</td>
-   <td>Boere boe jodo ukwa keje dure boere berago, tuguri kori epado ema, tuwire kigori jamedy. As raízes na água em banhos, após os cânticos, para evitar dores de cabeça, garganta, mal estar etc</td>
-   <td>Agosto</td>
-   <td>itura, boku</td>
-   <td>Makare</td>
-   <td>makare </td>
-   <td>makare</td>
- <td>https://upload.wikimedia.org/wikipedia/commons/a/af/Algodao-do-cerrado.jpg</td>
- </tr>
- <tr>
-   <td>Amarelão / garapa</td>
-   <td>Mekodo parewy</td>
-   <td>Apuleia leiocarpa (Vogel) J.F. Macbr.</td>
-   <td>Fabaceae</td>
-   <td>boere ika, kamorewy, ira, bai ipodo nowy  i tabo</td>
-   <td>Janeiro / fereiro</td>
-   <td>itura, boku</td>
-   <td>bokwado makare; rumuga biagare</td>
-   <td>biagare</td>
-   <td>1 -makare, 2 -biagare</td>
- <td>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Garapeira29fev2020a_02.jpg/560px-Garapeira29fev2020a_02.jpg</td>
- </tr>
- <tr>
-   <td>Amendoim</td>
-   <td>Batorarewy diorubo</td>
-   <td>Chamaecrista spp. Moenche</td>
-   <td>Fabaceae</td>
-   <td>boere nowy i rugudu reko boetore enogwaji ere tugo tuiagibero pega ro pega kawo ei. boere reko aredu kuiarurewydukuriji onogaredo aredywo ema</td>
-   <td>diferentes epocas, conforme a especie</td>
-   <td>Boku</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Arachis_hypogaea_-_Köhler–s_Medizinal-Pflanzen-163.jpg/560px-Arachis_hypogaea_-_Köhler–s_Medizinal-Pflanzen-163.jpg</td>
- </tr>
- <tr>
-   <td>Amoeira-da-itura</td>
-   <td>Oko</td>
-   <td>Maclura tinctoria (L.) D. Don ex Steud.</td>
-   <td>Moraceae</td>
-   <td> boere nowy i biri kuru epado boe ekuri kori boe ewija kuri epado ema jamedy</td>
-   <td>Dezembro / Janeiro</td>
-   <td>itura (kurugwa okwa)</td>
-   <td>maka jokody kare</td>
-   <td>boe bokware</td>
-   <td>makare</td>
-   <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4522639204/media/9adfcec6c3fc7d214a39888d2f8c319f</td>
- </tr>
- <tr>
-   <td>Angico branco</td>
-   <td>Akiri kigado</td>
-   <td>Anadenanthera colubrina (Vell.) Brenan</td>
-   <td>Fabaceae</td>
-   <td>Boe erigire ema, boe ewai lpore ema. Boere aroia kabidody epa towyje nowy urugudu tabo, nowy jorubo kudu pemegare boe ewaboji</td>
-   <td>Julho / agosto</td>
-   <td>itura</td>
-   <td>boe bokware</td>
-   <td>boe bokware</td>
-   <td>boe bokware</td>
- <td>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Anadenanthera_colubrina.jpg/560px-Anadenanthera_colubrina.jpg</td>
- </tr>
- <tr>
-   <td>Angico</td>
-   <td>akiri  </td>
-   <td>Anadenanthera falcata (Benth.) speg.</td>
-   <td>Fabaceae</td>
-   <td>Boere paro ipo, bai ipodo ema, boe erigire ema jamedy a rogure boere tuguiedo ema. Boere nowy i toguru ta dure boere berego boe ekojari epace</td>
-   <td>Julho / setembro</td>
-   <td>itura</td>
-   <td>makare</td>
-   <td>makare</td>
-   <td>biagare</td>
-   <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/1423972793/media/73915f68a4bc7ab341fb5259e9f70bea</td>
- </tr>
- <tr>
-   <td>Aricá</td>
-   <td>Managurui / managururewy</td>
-   <td>Physocalymma scaberrimum Pohl</td>
-   <td>Lythraceae</td>
-   <td></td>
-   <td>agosto / Setembro</td>
-   <td>kurugwa okwa pobo okwa</td>
-   <td>boe bokware</td>
-   <td>boe bokware</td>
-   <td>boe bokware</td>
-   <td>https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Physocalymma_scaberrimum.jpg/560px-Physocalymma_scaberrimum.jpg</td>
- </tr>
- <tr>
-   <td>Aroeira</td>
-   <td>Burudui</td>
-   <td>Myracrodruon urundeuva allemão</td>
-   <td>Anacardiaceae</td>
-   <td>Kuru remaure boere mado ia tugorirebeji ia tugugodaeji, ake epare ema jamedy, Boere kuru berego túgudywo ce boe etoriwudu, boe ekuiboka, boe ataga kori pegarewyji:</td>
-   <td>Julho a setembro</td>
-   <td>itura (pobo okwa jiwu)</td>
-   <td>boe bokware</td>
-   <td>boe bokware</td>
-   <td>biagare</td>
-   <td>https://upload.wikimedia.org/wikipedia/commons/7/70/Aroeira_arvore.jpg</td>
- </tr>
- <tr>
-   <td>Assa-peixe</td>
-   <td>Bacetaojiakirirewy</td>
-   <td>Vernonanthura phosphorica (Vell.) H. Rob.</td>
-   <td>Asteraceae</td>
-   <td>Boere bai ipodo ema. Boere baigado, kaiborido, aragodo ema jamedy. Boere biri mugudo nowy bekuru remawu bogai t</td>
-   <td>Agosto</td>
-   <td>itura </td>
-   <td>maka jokody kare</td>
-   <td>boe bokware</td>
-   <td>makare</td>
- <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/3715301319/media/ffe6f131645c924625186ab9432d4eed</td>
- </tr>
- <tr>
-   <td>Axixá</td>
-   <td>Paragorewy</td>
-   <td>Annona sp</td>
-   <td>Annonaceae</td>
-   <td>Boere aru berego boe ekojari, ake epace</td>
-   <td>Março / abril</td>
-   <td>boku</td>
-   <td>boe bokware</td>
-   <td>biagare</td>
-   <td>makare</td>
-   <td></td>
- </tr>
- <tr>
-   <td>Azedinho</td>
-   <td>Bo</td>
-   <td>Sterculia striata A. St.-Hil-& naudin</td>
-   <td>Malvaceae</td>
-   <td>Kodure boere kowyje. Aru berego kuru pemegare boe etoriwudu koriji</td>
-   <td>Junho a agosto</td>
-   <td>boku, boe gigadu</td>
-   <td>makare</td>
-   <td>makare</td>
-   <td>biagare</td>
- <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4535786976/media/58c5dd7717cc08782b7aeaabe645986d</td>
- </tr>
- <tr>
-   <td>Babaçu</td>
-   <td>Boe eto pagodae</td>
-   <td>Oxalis densifolia Mart. ex Zucc.</td>
-   <td>Oxilidaceae</td>
-   <td>Boere kody kowyje</td>
-   <td>março</td>
-   <td>boku</td>
-   <td>makare</td>
-   <td>makare</td>
-   <td>makare</td>
- <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4936059452/media/b6b89df5080dea9df0073ad42326b4e4</td>
- </tr>
- <tr>
-   <td>Bacaiuva / bocaiuva / Macaúba</td>
-   <td>Noido</td>
-   <td>Attalea speciosa Mart.</td>
-   <td>Areacaceae</td>
-   <td>Boere a gori kowyje. Boere ikado tabo, bai aodo ema jamedy</td>
-   <td>agosto / Setembro ( abundancia_piebaga)</td>
-   <td>boku, boe gigadu</td>
-   <td>makare</td>
-   <td>biagare</td>
-   <td>biagare</td>
- <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4908946527/media/5fea20f3c98b964effbd3c4395523a53</td>
- </tr>
- <tr>
-   <td>Bacaiuva / bocaiuva / Macaúba</td>
-   <td>Akudo (palmeira) / Ako (fruta grande)</td>
-   <td>Acrocomia aculeata (jacq.) lodd. ex Mart.</td>
-   <td>Areacaceae</td>
-   <td>Boere Tuioku kori epado nowy raru kuruce. Boere toedo aru keje tuwo kuru remo turuwo koriji. Boere aru berego Boe ewiri uru, boe ekojari epare ema jamedy. Boere taimo nowy kuru tabo tuwiri kigori pegarewyji</td>
-   <td>Dezembro a março</td>
-   <td>itura, boku</td>
-   <td>boe bokware</td>
-   <td>boe bokware</td>
-   <td>makare</td>
- <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4510148653/media/564e4c2e0b77b6c7a6e449bbc4c6de7b</td>
- </tr>
- <tr>
-   <td>Bacuri / acuri</td>
-   <td>Akudo (palmeira) / kuimare (pequeno)</td>
-   <td>Acrocomia aculeata (jacq.) lodd. ex Mart.</td>
-   <td>Areacaceae</td>
-   <td>Boere nowy no kududo dure boere kugudo, noa a boere kowyje itoia jamedy, Boe ero makare nowy ai tabo: kodo, kodorabo, parikiboto. Boere nowy ai bu tuwai aoji, tuwai paruji. Boe enogwagere noa a ji, itoiaji barae ekogodae anemia ji. Nowu no kudu pemegare barae egore</td>
-   <td>Dezembro a março</td>
-   <td>boku, boe gigadu</td>
-   <td>makare</td>
-   <td>makare</td>
-   <td>makare</td>
- <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/2269018946/media/e2e53d5debddf253f9c2fb4afd537843</td>
- </tr>
- <tr>
-   <td>Bálsamo </td>
-   <td>Apegire (fruto) / apido (planta)</td>
-   <td></td>
-   <td></td>
-   <td>Ere baigado itoõe, iage ere bai towuge tabo. Ere pemegado tugeje ia boe ero boekege. Ere kugudo, kowu (mugudo/ berego), buturedu dure ere kowuge.</td>
-   <td></td>
-   <td>itura</td>
-   <td>makare</td>
-   <td>makare</td>
-   <td>makare</td>
- <td></td>
- </tr>
- <tr>
-   <td>Barbatimão-cascudo / fevereiro</td>
-   <td>baiogo</td>
-   <td></td>
-   <td></td>
-   <td>Ere a kowuge, ere kududo dure ere tugu juto</td>
-   <td></td>
-   <td>boku,itura</td>
-   <td>makare </td>
-   <td>makare</td>
-   <td>makare</td>
- <td></td>
- </tr>
- <tr>
-   <td>Barbatimão-liso</td>
-   <td>Poro ekarewy</td>
-   <td></td>
-   <td></td>
-   <td>Ere baigado itoõe, iage ere bai towuge tabo. Ere pemegado tugeje ia boe ero boekege. Ere kugudo, kowu (mugudo/ berego), buturedu dure ere kowuge Ere a kowuge, ere kududo dure ere tugu juto</td>
-   <td></td>
-   <td>itura</td>
-   <td>boe bokware</td>
-   <td>boe bokware</td>
-   <td>makare</td>
- <td></td>
- </tr>
- <tr>
-   <td>Barbatimão-peludo</td>
-   <td>Betaga Erubo</td>
-   <td></td>
-   <td></td>
-   <td>Now a botugody kuru re ere tuioku kori epado ema, boe tore eia ekeru pegi epado ema. Emode nowy buturedu kowuge, ere mugudo, kowu jamedy.</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Baru</td>
-   <td>Betagaikonogo / Betaga Biri Kororogodyrewy</td>
-   <td></td>
-   <td></td>
-   <td>Ere kududo, kugudo, torudo, iworo kurudo ema (ia boe ero boe keje ekudumo ce. Emode nowy apidoia kowyje nowy ai ere kodarabodo ema, parikiboto, kodo, baku, Emode ai bu tuwai aoji paruji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Batata-do-tiu</td>
-   <td>Miacerewy Erubo</td>
-   <td>Operculina macrocarpa</td>
-   <td></td>
-   <td>Ere meririku ipodo ema, bai ipogurure ema (bai ipo boiadadawu)</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Operculina_macrocarpa_%28L.%29_Urb._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%283%29.jpg/560px-Operculina_macrocarpa_%28L.%29_Urb._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%283%29.jpg</td>
- </tr>
- <tr>
-   <td>Batata-marulete / batata-maroleite / batata-purunga</td>
-   <td>Parori</td>
-   <td></td>
-   <td></td>
-   <td>Ere kurodurogu kowyje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Batatinha</td>
-   <td>jekojagurewy (tadarimana) / Je kwugegurewy Erubo (piebaga)</td>
-   <td></td>
-   <td></td>
-   <td>Ere biri berego nowy kuru ere redo ariato tuwo tumugudo tada, areme ekogodae pegarewy epace, I biri kuru cere ekudumode emode reko tuwiri kuroduji bituwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Bate-caixa</td>
-   <td>pagadi ikuredo</td>
-   <td></td>
-   <td></td>
-   <td>Ere biri berego dure pemegare boe ecebae boeji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Bolsa-de-pastor / bolsinha-de-pastor</td>
-   <td>oko</td>
-   <td>Capsella bursa-pastoris L.</td>
-   <td></td>
-   <td>Ukwa boe ere beredo dy cere boe etore ekudure boe pegarewyji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/20141101Capsella_bursa-pastoris1.jpg/560px-20141101Capsella_bursa-pastoris1.jpg</td>
- </tr>
- <tr>
-   <td>Bordão</td>
-   <td>kie eke aru xaru / kie erubo</td>
-   <td></td>
-   <td></td>
-   <td>Ere a kowu dure ere kowyje, ere a kududo, nowy tudu boere kurudo. Now i ere kaiado ema bai ipogurure ema. Now biri pemegare moce epace. Ere biri tugu poboto dure ere tugu ia poari boeto tugudywo ce dure erubore ema awy boe ewiri ekogodae pega boeji, boe ekuiboka kori, boe epegaguru, boe ekuri kori. Now biri kuru pemegare boe ekojariji, awagu mode toedo epare ema jamedy, boe toriwudo kori, boe ewureado kori pegare epa rema jamedy, umode tigera bararedo boe eragedywo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Bosta-de-baiano / carrapicho</td>
-   <td>Tugorirewy</td>
-   <td></td>
-   <td></td>
-   <td>Ere kagu pobo okodo kao dure ere reko pudui togorirewy boeji, etogorire jiu boeli, ewiri kigori pegarewy, pemegare mokuiao doge eto oia kigoriji, boe ewiri kigori pegarewy epare ema jamédu. Ukwa ere berego tuguduo kurue awy boe ekogodaeji: boe ewiri uru, boe ecebae ure tadudu-dody, barogo peguru epa, boe pegaguru ku, barae kogodae pegarewy jeture-boeidu</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Buriti</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Nowu ukwa kuru pe re pemegare barogo peguruji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Buritirana</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere mugudo, kowytuwo kowyje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Buta(piebaga)</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere ukwa kowu dure ere codo boei, boere ia tubagudure ceboe kowyje dukeje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Cabaça</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere biri berego nowy kuru pemegare boe epegaguru, boe epegaguru kuji. Nowu biri kobo, boe erubore ema tuwaidigiriwo karei</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Cabaelo-de-nego / corticeiro</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Aru boere reko aroe ewiriji, aroe akedu mariguwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Caetano / melão-de-são-caetano</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere ai, ukwa berego tugudywo kuruce, boe emokowudo epa</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Caia pia / cara pia</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Tudu ere kududo, ere kuru pagodydo, betureboedo ema ere kurudo. Ere itaguru tawyje tuwo baiga ikudo, nowy ai bai awujiwure ema, ere torodo ema,\ntureruwo fabo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td>Caite</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere túwaigado itoèe, boe ekuiere nowy itaguruce, boere kodo towyje ai tabo oro tabo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Erubore ema tubegagurugi. Rore pa pal jewuge boere ekuiedo ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Emode akodo turagodykeje. Boe ewabore ema turagodywo tabo, boewo pobo reko tabo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Bai ipoguru boiadodawure ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe emode etaimo nowy iwara kuruce ukwa kuruèe boe ewiri uru epa nure ema, barae ekogodae pegarewy epa nure ema jamedy (dengue, doença de chagas, malária, gastrite, e tosse) boe ekojari. Aru kuru boe elogore pudui bara ekogodae pegarewy ji (hepatite) boe etore ewudu beregadugody epa nure\nema jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere nowy ukwa kow uredudui kodi boe eiogi boe etaora koriji nowy kudurogu boe elogore pudui boe eia pegaji boe eia kuroduji. Boe ere nowy jorubo ukwa kurudo dyji re boe enogwagere boe enoroja pegaji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere mano tawyje aroe padui baiadada dukeje ple aroedo ture remagu pui jamedy mano tabo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>boe ere tugowudu bitudo a pemegare tuwo boe ekuri butudo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurodu kowyje, boe ere kurudo, barae ere juko etaregarewydo ema, iwara jore tow pobo betu rirewu rogu, barae ere betureboe bekurudu tabo.\nAnacardiaceae\nBoe ere nowy a gori kowyje. Boe emode nowy koo araka bu ty (goiaba) kigadurewy i biri keje boe ere beredo pemegare boe epegaguruji. Nowu ukwa boe eiogore pudui ecew barae egore tori meture boe etadaduji (pedra na vesícula), eew barae ekogodae iere (diabete e colesterol alto) epa nure ema jamedy. Boe ere beredo dy boe ekudure ce to kori epace peegare tuwo boe etodo kabi jamedy (depurativo)</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tugera pemegado etaimoda jurubo kuruce dy boe ere kurireboe etaimo ce ewidugugodywo boe etore jokuru kurirewy jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe emode tumikado I de tuwai ipodo ema jamedy. Boe ere i biri beredo tugojari epace nowy biri boe epegagur epaõe</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe eno ipo bigody nure ema tumeruwo tumika tabo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe eiogore pudui nowy iwara ukwa tabo tori meture boe etoriwudo tada dyji (pedra nos rins), barae ekogodae iere (vesícula), boe epegaguru, boe ekure kurire boe epiji du, awagu oia pegarewy (tétano). Ere taimo nowy aru kuruce, ekera biadodyré nowy aru tabo, pegarewy monorewy ewo utudo tubiji, ewo barigu tubiji. Ere nowy okora udo turugadu ewo manodo ema (aiagodyre ereru mode tabo). Ere nowy tudu kuru, nowy kurodu kuru reko ia boe, awagoe etoegudure jiboei</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere aru ukwa beredo boe eiogore pudui tabo ake ji, boe ekojari biakure boe eiduji, boe ewiri uruji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere boe jodo i biri keje kody keje boe eiogore pudui tabo taora koriji tumedugody ji. Kuru pemegare boe eto koriji. Boe ere nowy i biri kurudo dy boe eiogore pudui tabo ecewu barae ekogodae pegarewy ure tugeragu boe ei boe erare piji dyji, Boe erubore tudu rogue bokureboeji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tubaro ipodo ema boe ere tuwai jurado ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe emaragodyre ji boe ero kurirewyto biarewyto</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere urugudurogu reko areme emoguro ji uwo kori akedudo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere nowy jorubo kurudo dy tabore boe eiogore pudui boe etogorire pudui dyji boe edawu korire pudui dyji, boe ewogody boe ewiri kigoriji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere nowy i biri beredo dy boe elogore pudui tuwiri urul, turuwo kori, tugojari kurii, tuwiri pegai, etore ewudae re kurire pudui dyji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere aru tugu ty tudo tui turemo boeto dy oto dai tuwure jo kawo awagu keje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere aru uredudu kodi bace ei, Ukwa kow dy urugudu rogure boe ereireko pudui uwo boe pegarewy ja do boe epiji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere boe etore etaimo aru kuruce emeru mariguwo. Boe eiogore boe etore ei ukwa tabo ekawo tugeragu boe pegarewyji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere awy ukwa beredo pemegare boe ewareduji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ewai ipore ema meriri iku ipore ema jamedy-</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tumikado i rema, tudaraiga boe ewai ipoguru ure ema jamedy. Boe ere aru araka beredo boe ekuri kori epace dy boe ere boe etore etaimo ce jamedy eduruwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere aru ukwa bu ty pugeje dure boe ere berego boe eiogore tore ei eto botu mariguwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurodu mugudo kurudo boe ere kurodurogu kowyje. Boe ere kuru butudo baito. I biri pemegare boe epegaruruji tuwo boe eragedudo jamedy boe eiogore pudui tabo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere udo ainono kodydu reore (rakare kodi durure kodi)</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurodu kowje, iere kaweredo ere nowy enogu kowyje. Ere nowy kaidaga ai oro, ereru tabo (boe itaga, boe jerimaga keje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere tugeragu nowy kaguruji tugojari epaõe, baere tuwogado, boe ekera, boe ewure bokodyre, boe etonaregedo buture maiwu ukunabo bitu mariguwo\nArecaceae\nBoe ere nowy kaidaga a kururogu barigu tuiokuto, taiwo pemegawo, tuiorudu pemegawo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tudogarado ema, tudogo epace, paro, kuiara, kaibori, aragodo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere nowy biaru poporo kurodu ere kurudo tugudywo ce</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurodu kowyje, boe ekere ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere nowy kuru bekuru tugu taoto tao kugudugodywo tao pemegawo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe erbore ema nowy aru, iwara, ukwa ere mugudo joru tada tugudywo ce, uwo tugu pemegado, igurudu pemegawo boe erubo nure ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere nowy aru tugu taokudawu kuda, iadu ere taimo nowy aru kuruce boe ewudugugodywo, boekori kawo boe</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere ikudo toredywo to barege ebo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere mugudo tugudywo de ere berego, nowy aru ere gugudo poboto tuvo taimo tabo, Now a ere mugudo joru tada beregodyo ere epado boe ewini</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Now aru kurùrogu boe ere reko tuwia, togwa poroji bitu mariguwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe enoroe, boe jerimaga, boe itaga kejere pemegadodyre</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Now ukuare ere mugudo joru tada ere beredo tugudywo ce ere tugojari epado ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Nowu aru ere mugudo joru tada ere beredo tugudywo ce ere tugojari epado ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe enoroe nure ema mare boe jerimaga, boe itaga kejere boere tugera kiowado ji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Nowu ukware ere mugudo joru tada berego tugudywo ce, ere tuguri kori, tubegaguru, tuguiboka kori epado ema jamedy, uwo tugu pemegado</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Nowu arogu kududo reko ia tuwure, tubogora kurodurewyji. Nowu ukwa ere mugudo joru tada ere berego tugudywo ce togojari ku epace, ewo tugu pe-megado areme etorewudae, boe etore eku epado ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurodu kowyje, boe ere kodyre maidu tudu kowyje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurodu kowyje. Nowu araka ere mugudo joru tada beregodyre nowy i biri pemegare boe epegaguru epa reno</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tugera kiogwado ji tuwai epace, irawo ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere nowy kurodu mugudo joru tada enogwagere ji. Jaoboe mariguduboe enogwagere kuduji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe erubore nowy aru, nowy ukwa, boe eku pemegawo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere nowy biri padure i kejewu tugu ia meririto pobo tabo, nowy biri ere mugudo joru tada ekudure ce turagedywo. Nowu i tabo ere toroe boe ipodo ema taraiga</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Enogwagere nowo kurodu roguji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere aru mugudo joru tada berego ere epado tuwiri uru, taora kori. Boe ere kowu joruto uredududo uwo boe pegarewu barigu utudo, laboe biarewyre ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Now aru, nowy ukwa boe ere tore etaimo kuruce tore ekogody kawo, tore epega kawo dubogaire eroino ji. Boe ere nowy uru mugudo joru tada tugu-dywo e tuwiri uru epace, tugojari epace, tuguri kori epace</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere araka mugudo joru tada jorubo boe ekojari i epado ema (ikuri epado ema). Boe erubore nowy ioide, boe ere tugana kado, boe ere tumure kado.\nboere iwoi tawyje kogudo nowy korirewu kajeje. Ere nowy araka mugudo joru tada tugojari epado ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe etao epa nure ema boe eiogore ji tabo pemegawo motuwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>\nBoe enogware nowy kUroduJI</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe enogware nowy kuroduji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Nowu i ere tugera kiogwadoji bai epace, irado ema. Ere nowy iwoi, mea kogudo to tugeje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe enogwagere nowy kuroduji, ere kurudo. Ere nowy aru mugudo joru tada, ere tuiedawu kori epado ema, ere awy areme etoroja epado ema, epeme-gawo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe eiogore aroe ei tabo boe ere etugu moto dy oto dai</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ukwa kowudodyre, cododyre boe etorei, erijodu rewo pudui, erijodu mariguwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurudo tugeje enogwagere ji. Now i ure turugado boe ewai, ika, epace. Ere nowy i biri mugudo joru tada boe ecegurugudo epa, boe ekigori epa. Ere nowy a kowu joruto ere nowy tubegaguru epado ema. Ere nowy kody, nowy i kuru tadu, epado boe emearudu ewadywo pudui, tugu cowo. Ere nowy biri okodo tapira mokuro kuru kao tuiorubodo ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurudo tugeje enogwagere ji. Now i ure turugado boe ewai, ika, epace. Ere nowy i biri mugudo joru tada boe ecegurugudo epa, boe ekigori epa. Ere nowy a kow joruto ere nowy tubegaguru epado ema. Ere nowy kody, nowy i kuru tadu, epado boe emearudu ewadywo pudui, tugu cowo. Ere nowy biri okodo tapira mokuro kur kao tuiorubodo ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boedoge ere kurudo enogwagere kodyji. Ere nowy kurucodo ewo tadugodo tabo. Ere awy toroe meriri boe ipodo nowy bie ipoce. Ere aroe ekedo ema toro baito. Ere udo urugado bekurudo tuwo tugu taoto, tao kororogodywo. Ere nowy kurodu, jorubo kurudo ema, cegurugudu epace, tugu cowo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere ikado ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere ikado ema. Now ibiri ere tugu poboto tuwure kori epado ema, togorire puduido, tuguri kori, tuguiboka kori epado ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere tuguiedo, bourado ema padywo tuwugeje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe eiogore pudui boe ero kurirewy keje boe ero biarewy keje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tugedo ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere bekurudo tao epace, nowy ukwa ere reko tuwureadoji, tuwureado kawo tuwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Now aru ere mugudo joru tada boe etore jokuruga doge etaragudu kigody akedywo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Ere aru mugudo joru tada ekudure ce, nowy aru ere gugudo jamedy tuwo reko tubogora kuroduji, epogora bokodyre ere rekoji jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurodu kowyje. Ere nowy tudu kagu poboto, tuiorubodo ema, boe ekuri kori pegarewy, boe epegaguru, bakuru korewy peagody. Ere nowy oku mugüdu joru tada, dy ekudure ce, ere areme etoroja epado ema, uwo etoroja pemegado, ekuibokwa kori epado ema jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere aru berego dy boe eiogore aredu kogogodaeji tabo. Boe eiogore aredu ji kuiaruwo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere ukwa, aru uredudywo uwo tuiodo boe pegarewy keje, boere nowy i biri ukwa beredo boe ekuri kori, boe ewiri kurodu, boe etaora</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Barae ere nowy ira bu tuwai aoji, boere aru, ukwa, kowyje jui tabo dy boe eiogore negedorogu kodyi maidu roguji, boe pegarewy jetu kawoji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere boe jodo keje dy ekudure kuruce tugojariji, tuwiri uruji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Kodure boere kowyje, boe eiogore torei aru tabo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe eigore pudui, ukwa tabo tuwo pobogo kowyje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere kurodu kowje, boere betudo, boere kurudo. Boere i kuru okodo norigo kao. Boe erigirire ema. Boe ekera magadure boe eroji kuru tabo. Kuru pemegare boe ekuri koriji. Kuru pemegare boe epegaguru kuji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe eiogore tugogoriji, tuwiri kurody ji tabo, i kuru pemegare boe ekuiboka kori ji jamedy. Boe biri, aru beredo dy boere reko kigori pegarewyji, awy barae egore diabete epare ema. Boe ekuiboka kori epare ema jamedy. Boe eiogore tugogoriji aru tabo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere aru, ukwa berego dy pemegare boe etaora kori ji barae egore conceptivo ji jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere ukwa berego boe ekuri kori epace</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere kurodu kowyje, boere kurudo jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere kurodu kowyje, boere kurudo jamedy, boere aru enogu beredo boe epegagúru epace</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere kurodu kowyje boere kurudo jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere ukwa beredo boe epegaguru, boe ekuri kugudu epace jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere nowy ito kuru epado boe eto kori epace, boe ekojari epace, awy boe ekeno meadu jiwu boe ekogodae</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere reko, boe etore kodyre maiwu biriji kiogwagiri otodai (boe ero iedody). Boe eto kori epare nowy i kuru, boere nowy i uru berego tugojari epace awu\nboe ekeno meadu jiwu boe ekogodae epare ema jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere Kurodu kowyje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere i biri kuru tawyje dy boe ekudure ce boere reko awagu oiaji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boere kurodu kowyje, Boere ukwa kowu dy boe elogore boe etonaregedu kodyre maiwuli tabo, boe eniao pegaji.</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere aru beredo (barure ekogodyre) barae ekogody (diabetes) ji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere to beragu udo ce boe ero kurirewy keje. Boe ere nowy beragu tugu ropa doge eworito boe ere tuwaiga bekurododore</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kody kowyje tubegaguru ji. Boe ere aru gugudo dure boe ere tugu ty tuieto boe ero kurirewy kejeBoe ere tudu kowyje tubegaguruji. Boe ere aru gugudo dure boe ere tugu ty tuieto boe ero kurirewy keje</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>boe jodo i biri keje boe ere tugu poboto dy cere boe ekudure awagu oia ji boe ere reko oia mugaji jamedy. Boe ere tuwai ipodo ema jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere ukwa i biri beredo dy cere boe ekudure tubegaguruji, tuguri koruji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe erubore nowy tudurogu kuruce akogo akedywo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere ukwa beredo dy boe erubore ema barae ekogodoe e ekure dyji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere turagedu epado ukwa kuruce</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere ikudo kodyduce</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>tugudu kowyje a jamedy. Boe enoguagere kaguru tugo boeto. Boe ekaia ure i ce. Boe ere kurirewy to. Boe enoguagere aru kuruji turagedywo\nukwa boe etori wuduji. Boe ere berego tugojari raiji, aru areme emoguro kori ji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere ukwa beredo boe e kigadure dyji, boe etore e ekure dyji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tugu tugeto, aru pemegare bokureboeji.</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tuwai jurado ema ipodo ema. Boe ere barege ekogodado do ema</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tugodydudo ema, tuwai jurado tuwai aogajejeu megajejeudo ema jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere kurodu kowyje kurudo jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere tuwaido ipoce boe ere kow mace dogei jamedy. Boe ere taimo i biri kuru ce tuguri kugudu tugu tabo dyji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere i biri beredo dy cere boe ekudure tore eudae ure boe epebaru korido dyji pemegare tuwo boe etodo kabi jamedy</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere ukwa beredo dy cere boe ekudure barae ekogodae mugure boe ekui boka keje dyji boe ewiri uruji jamedy.</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe ere aru kowyje turuwo wadywo turaji boe ere aru beredo tore eudae ure tubebaru korido dyji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- <td></td>
- </tr>
+      <tr>
+        <td>Abil</td>
+        <td>Bokogorewy / jokukuie tae</td>
+        <td>cf. Pouteria torta subsp. glabara T.D penn.</td>
+        <td>Sapotaceae</td>
+        <td>Ere kurody kowyje, ere kurudo tugeje tugudywo ce</td>
+        <td>Outubro a janeiro</td>
+        <td>itura (pobo okwa)</td>
+        <td>Makare</td>
+        <td>biagare</td>
+        <td>biagare</td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Pouteria_torta_Radlk._subsp._gallifructa_%28Cronquist%29_T.D.Penn._%288165339526%29.jpg/560px-Pouteria_torta_Radlk._subsp._gallifructa_%28Cronquist%29_T.D.Penn._%288165339526%29.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Aguapé</td>
+        <td>Pora</td>
+        <td>Echhornia crassipes (Mart.) Solms</td>
+        <td>Pontederiaceae</td>
+        <td>Nowy aru kuru remaure, boe ake epado ema, mare ima emaragodae. (Aroe rubo.)</td>
+        <td>Vegetativa</td>
+        <td>Boku</td>
+        <td>boe bokware</td>
+        <td>biagare</td>
+        <td>boe bokware</td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Eichhornia_crassipes_001.JPG/560px-Eichhornia_crassipes_001.JPG
+        </td>
+      </tr>
+      <tr>
+        <td>Açoita-cavalo</td>
+        <td>Pariwa</td>
+        <td>Leuhea divaricata mart.</td>
+        <td>Malvaceae</td>
+        <td>Boe modo iwo tawyje, tugera magadywo ia boe ero tabo (turo monogodae, boe ero boe ego biadody</td>
+        <td>Maio a agosto</td>
+        <td>Itura</td>
+        <td>maka jokody kare</td>
+        <td>biagare</td>
+        <td>makare</td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Luehea_divaricata%2C_Iguazu_Falls%2C_Argentina.jpg/560px-Luehea_divaricata%2C_Iguazu_Falls%2C_Argentina.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Algodão</td>
+        <td>Akigoamekurewy</td>
+        <td>Gossypium hirsutum L.</td>
+        <td>Malvaceae</td>
+        <td>Boere a codo kidoguro tabo, dure boere reko tuwia paruji tumeadae pemegawo boe ero jamedy boeji</td>
+        <td>Epoca de cultivo</td>
+        <td>Itura</td>
+        <td>biagare</td>
+        <td>maka jokody kare</td>
+        <td>makare</td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/6/6f/CottonBolls.jpg</td>
+      </tr>
+      <tr>
+        <td>Algodãozinho</td>
+        <td>Akigorewy (bacororoepa akigorewy)</td>
+        <td>Cochlospermum regium (Schrank) pilg.</td>
+        <td>Bixaceae</td>
+        <td>Boere boe jodo ukwa keje dure boere berago, tuguri kori epado ema, tuwire kigori jamedy. As raízes na água em banhos, após os cânticos, para evitar dores de cabeça, garganta, mal estar etc</td>
+        <td>Agosto</td>
+        <td>itura, boku</td>
+        <td>Makare</td>
+        <td>makare </td>
+        <td>makare</td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/a/af/Algodao-do-cerrado.jpg</td>
+      </tr>
+      <tr>
+        <td>Amarelão / garapa</td>
+        <td>Mekodo parewy</td>
+        <td>Apuleia leiocarpa (Vogel) J.F. Macbr.</td>
+        <td>Fabaceae</td>
+        <td>boere ika, kamorewy, ira, bai ipodo nowy i tabo</td>
+        <td>Janeiro / fereiro</td>
+        <td>itura, boku</td>
+        <td>bokwado makare; rumuga biagare</td>
+        <td>biagare</td>
+        <td>1 -makare, 2 -biagare</td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Garapeira29fev2020a_02.jpg/560px-Garapeira29fev2020a_02.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Amendoim</td>
+        <td>Batorarewy diorubo</td>
+        <td>Chamaecrista spp. Moenche</td>
+        <td>Fabaceae</td>
+        <td>boere nowy i rugudu reko boetore enogwaji ere tugo tuiagibero pega ro pega kawo ei. boere reko aredu
+          kuiarurewydukuriji onogaredo aredywo ema</td>
+        <td>diferentes epocas, conforme a especie</td>
+        <td>Boku</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Arachis_hypogaea_-_Köhler–s_Medizinal-Pflanzen-163.jpg/560px-Arachis_hypogaea_-_Köhler–s_Medizinal-Pflanzen-163.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Amoeira-da-itura</td>
+        <td>Oko</td>
+        <td>Maclura tinctoria (L.) D. Don ex Steud.</td>
+        <td>Moraceae</td>
+        <td> boere nowy i biri kuru epado boe ekuri kori boe ewija kuri epado ema jamedy</td>
+        <td>Dezembro / Janeiro</td>
+        <td>itura (kurugwa okwa)</td>
+        <td>maka jokody kare</td>
+        <td>boe bokware</td>
+        <td>makare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4522639204/media/9adfcec6c3fc7d214a39888d2f8c319f
+        </td>
+      </tr>
+      <tr>
+        <td>Angico branco</td>
+        <td>Akiri kigado</td>
+        <td>Anadenanthera colubrina (Vell.) Brenan</td>
+        <td>Fabaceae</td>
+        <td>Boe erigire ema, boe ewai lpore ema. Boere aroia kabidody epa towyje nowy urugudu tabo, nowy jorubo kudu
+          pemegare boe ewaboji</td>
+        <td>Julho / agosto</td>
+        <td>itura</td>
+        <td>boe bokware</td>
+        <td>boe bokware</td>
+        <td>boe bokware</td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Anadenanthera_colubrina.jpg/560px-Anadenanthera_colubrina.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Angico</td>
+        <td>akiri </td>
+        <td>Anadenanthera falcata (Benth.) speg.</td>
+        <td>Fabaceae</td>
+        <td>Boere paro ipo, bai ipodo ema, boe erigire ema jamedy a rogure boere tuguiedo ema. Boere nowy i toguru ta
+          dure boere berego boe ekojari epace</td>
+        <td>Julho / setembro</td>
+        <td>itura</td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>biagare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/1423972793/media/73915f68a4bc7ab341fb5259e9f70bea
+        </td>
+      </tr>
+      <tr>
+        <td>Aricá</td>
+        <td>Managurui / managururewy</td>
+        <td>Physocalymma scaberrimum Pohl</td>
+        <td>Lythraceae</td>
+        <td></td>
+        <td>agosto / Setembro</td>
+        <td>kurugwa okwa pobo okwa</td>
+        <td>boe bokware</td>
+        <td>boe bokware</td>
+        <td>boe bokware</td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Physocalymma_scaberrimum.jpg/560px-Physocalymma_scaberrimum.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Aroeira</td>
+        <td>Burudui</td>
+        <td>Myracrodruon urundeuva allemão</td>
+        <td>Anacardiaceae</td>
+        <td>Kuru remaure boere mado ia tugorirebeji ia tugugodaeji, ake epare ema jamedy, Boere kuru berego túgudywo ce
+          boe etoriwudu, boe ekuiboka, boe ataga kori pegarewyji:</td>
+        <td>Julho a setembro</td>
+        <td>itura (pobo okwa jiwu)</td>
+        <td>boe bokware</td>
+        <td>boe bokware</td>
+        <td>biagare</td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/7/70/Aroeira_arvore.jpg</td>
+      </tr>
+      <tr>
+        <td>Assa-peixe</td>
+        <td>Bacetaojiakirirewy</td>
+        <td>Vernonanthura phosphorica (Vell.) H. Rob.</td>
+        <td>Asteraceae</td>
+        <td>Boere bai ipodo ema. Boere baigado, kaiborido, aragodo ema jamedy. Boere biri mugudo nowy bekuru remawu
+          bogai t</td>
+        <td>Agosto</td>
+        <td>itura </td>
+        <td>maka jokody kare</td>
+        <td>boe bokware</td>
+        <td>makare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/3715301319/media/ffe6f131645c924625186ab9432d4eed
+        </td>
+      </tr>
+      <tr>
+        <td>Axixá</td>
+        <td>Paragorewy</td>
+        <td>Sterculia pruriens</td>
+        <td>Malvaceae</td>
+        <td>Boere aru berego boe ekojari, ake epace</td>
+        <td>Março / abril</td>
+        <td>boku</td>
+        <td>boe bokware</td>
+        <td>biagare</td>
+        <td>makare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4421200440/media/6e105785cd041033cb175cc0974b737a</td>
+      </tr>
+      <tr>
+        <td>Azedinho</td>
+        <td>Bo</td>
+        <td>Sterculia striata A. St.-Hil-& naudin</td>
+        <td>Malvaceae</td>
+        <td>Kodure boere kowyje. Aru berego kuru pemegare boe etoriwudu koriji</td>
+        <td>Junho a agosto</td>
+        <td>boku, boe gigadu</td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>biagare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4535786976/media/58c5dd7717cc08782b7aeaabe645986d
+        </td>
+      </tr>
+      <tr>
+        <td>Babaçu</td>
+        <td>Boe eto pagodae</td>
+        <td>Oxalis densifolia Mart. ex Zucc.</td>
+        <td>Oxilidaceae</td>
+        <td>Boere kody kowyje</td>
+        <td>março</td>
+        <td>boku</td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4936059452/media/b6b89df5080dea9df0073ad42326b4e4
+        </td>
+      </tr>
+      <tr>
+        <td>Bacaiuva / bocaiuva / Macaúba</td>
+        <td>Noido</td>
+        <td>Attalea speciosa Mart.</td>
+        <td>Areacaceae</td>
+        <td>Boere a gori kowyje. Boere ikado tabo, bai aodo ema jamedy</td>
+        <td>agosto / Setembro ( abundancia_piebaga)</td>
+        <td>boku, boe gigadu</td>
+        <td>makare</td>
+        <td>biagare</td>
+        <td>biagare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4908946527/media/5fea20f3c98b964effbd3c4395523a53
+        </td>
+      </tr>
+      <tr>
+        <td>Bacaiuva / bocaiuva / Macaúba</td>
+        <td>Akudo (palmeira) / Ako (fruta grande)</td>
+        <td>Acrocomia aculeata (jacq.) lodd. ex Mart.</td>
+        <td>Areacaceae</td>
+        <td>Boere Tuioku kori epado nowy raru kuruce. Boere toedo aru keje tuwo kuru remo turuwo koriji. Boere aru
+          berego Boe ewiri uru, boe ekojari epare ema jamedy. Boere taimo nowy kuru tabo tuwiri kigori pegarewyji</td>
+        <td>Dezembro a março</td>
+        <td>itura, boku</td>
+        <td>boe bokware</td>
+        <td>boe bokware</td>
+        <td>makare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4510148653/media/564e4c2e0b77b6c7a6e449bbc4c6de7b
+        </td>
+      </tr>
+      <tr>
+        <td>Bacuri / acuri</td>
+        <td>Akudo (palmeira) / kuimare (pequeno)</td>
+        <td>Acrocomia aculeata (jacq.) lodd. ex Mart.</td>
+        <td>Areacaceae</td>
+        <td>Boere nowy no kududo dure boere kugudo, noa a boere kowyje itoia jamedy, Boe ero makare nowy ai tabo: kodo,
+          kodorabo, parikiboto. Boere nowy ai bu tuwai aoji, tuwai paruji. Boe enogwagere noa a ji, itoiaji barae
+          ekogodae anemia ji. Nowu no kudu pemegare barae egore</td>
+        <td>Dezembro a março</td>
+        <td>boku, boe gigadu</td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/2269018946/media/e2e53d5debddf253f9c2fb4afd537843
+        </td>
+      </tr>
+      <tr>
+        <td>Bálsamo </td>
+        <td>Apegire (fruto) / apido (planta)</td>
+        <td>Impatiens walleriana</td>
+        <td></td>
+        <td>Ere baigado itoõe, iage ere bai towuge tabo. Ere pemegado tugeje ia boe ero boekege. Ere kugudo, kowu
+          (mugudo/ berego), buturedu dure ere kowuge.</td>
+        <td></td>
+        <td>itura</td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Impatiens_walleriana.jpg/560px-Impatiens_walleriana.jpg</td>
+      </tr>
+      <tr>
+        <td>Barbatimão-cascudo / fevereiro</td>
+        <td>baiogo</td>
+        <td>Stryphnodendron adstringens</td>
+        <td></td>
+        <td>Ere a kowuge, ere kudydo dure ere tugu juto</td>
+        <td></td>
+        <td>boku,itura</td>
+        <td>makare </td>
+        <td>makare</td>
+        <td>makare</td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Stryphnodendron_adstringens.jpg/560px-Stryphnodendron_adstringens.jpg</td>
+      </tr>
+      <tr>
+        <td>Barbatimão-liso</td>
+        <td>Poro ekarewy</td>
+        <td></td>
+        <td></td>
+        <td>Ere baigado itoõe, iage ere bai towuge tabo. Ere pemegado tugeje ia boe ero boekege. Ere kugudo, kowy (mugudo/ berego), buturedu dure ere kowuge Ere a kowuge, ere kududo dure ere tugu juto</td>
+        <td></td>
+        <td>itura</td>
+        <td>boe bokware</td>
+        <td>boe bokware</td>
+        <td>makare</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Barbatimão-peludo</td>
+        <td>Betaga Erubo</td>
+        <td></td>
+        <td></td>
+        <td>Now a botugody kuru re ere tuioku kori epado ema, boe tore eia ekeru pegi epado ema. Emode nowy buturedy kowyge, ere mugudo, kowy jamedy.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Baru</td>
+        <td>Betagaikonogo / Betaga Biri Kororogodyrewy</td>
+        <td></td>
+        <td></td>
+        <td>Ere kududo, kugudo, torudo, iworo kurudo ema (ia boe ero boe keje ekudumo ce. Emode nowy apidoia kowyje nowy ai ere kodarabodo ema, parikiboto, kodo, baku, Emode ai bu tuwai ao ji paru ji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Batata-do-tiu</td>
+        <td>Miacerewy Erubo</td>
+        <td>Operculina macrocarpa</td>
+        <td></td>
+        <td>Ere meririku ipodo ema, bai ipogurure ema (bai ipo boiadadawy)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Operculina_macrocarpa_%28L.%29_Urb._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%283%29.jpg/560px-Operculina_macrocarpa_%28L.%29_Urb._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%283%29.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Batata-marulete / batata-maroleite / batata-purunga</td>
+        <td>Parori</td>
+        <td></td>
+        <td></td>
+        <td>Ere kurodurogu kowyje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Batatinha</td>
+        <td>jekojagurewy (tadarimana) / Je kwugegurewy Erubo (piebaga)</td>
+        <td></td>
+        <td></td>
+        <td>Ere biri berego nowy kuru ere redo ariato tuwo tumugudo tada, areme ekogodae pegarewy epace, I biri kuru
+          cere ekudumode emode reko tuwiri kuroduji bituwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Bate-caixa</td>
+        <td>pagadi ikuredo</td>
+        <td></td>
+        <td></td>
+        <td>Ere biri berego dure pemegare boe ecebae boeji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Bolsa-de-pastor / bolsinha-de-pastor</td>
+        <td>oko</td>
+        <td>Capsella bursa-pastoris L.</td>
+        <td></td>
+        <td>Ukwa boe ere beredo dy cere boe etore ekudure boe pegarewyji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/20141101Capsella_bursa-pastoris1.jpg/560px-20141101Capsella_bursa-pastoris1.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Bordão</td>
+        <td>kie eke aru xaru / kie erubo</td>
+        <td></td>
+        <td></td>
+        <td>Ere a kowu dure ere kowyje, ere a kududo, nowy tudu boere kurudo. Now i ere kaiado ema bai ipogurure ema.
+          Now biri pemegare moce epace. Ere biri tugu poboto dure ere tugu ia poari boeto tugudywo ce dure erubore ema
+          awy boe ewiri ekogodae pega boeji, boe ekuiboka kori, boe epegaguru, boe ekuri kori. Now biri kuru pemegare
+          boe ekojariji, awagu mode toedo epare ema jamedy, boe toriwudo kori, boe ewureado kori pegare epa rema jamedy,
+          umode tigera bararedo boe eragedywo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Bosta-de-baiano / carrapicho</td>
+        <td>Tugorirewy</td>
+        <td></td>
+        <td></td>
+        <td>Ere kagu pobo okodo kao dure ere reko pudui togorirewy boeji, etogorire jiu boeli, ewiri kigori pegarewy,
+          pemegare mokuiao doge eto oia kigoriji, boe ewiri kigori pegarewy epare ema jamédu. Ukwa ere berego tuguduo
+          kurue awy boe ekogodaeji: boe ewiri uru, boe ecebae ure tadudu-dody, barogo peguru epa, boe pegaguru ku, barae
+          kogodae pegarewy jeture-boeidu</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Buriti</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Nowu ukwa kuru pe re pemegare barogo peguruji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Buritirana</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere mugudo, kowytuwo kowyje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Buta(piebaga)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere ukwa kowu dure ere codo boei, boere ia tubagudure ceboe kowyje dukeje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cabaça</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere biri berego nowy kuru pemegare boe epegaguru, boe epegaguru kuji. Nowu biri kobo, boe erubore ema
+          tuwaidigiriwo karei</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cabaelo-de-nego / corticeiro</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Aru boere reko aroe ewiriji, aroe akedu mariguwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Caetano / melão-de-são-caetano</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere ai, ukwa berego tugudywo kuruce, boe emokowudo epa</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Caia pia / cara pia</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Tudu ere kududo, ere kuru pagodydo, betureboedo ema ere kurudo. Ere itaguru tawyje tuwo baiga ikudo, nowy ai
+          bai awujiwure ema, ere torodo ema,\ntureruwo fabo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Caite</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere túwaigado itoèe, boe ekuiere nowy itaguruce, boere kodo towyje ai tabo oro tabo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Erubore ema tubegagurugi. Rore pa pal jewuge boere ekuiedo ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Emode akodo turagodykeje. Boe ewabore ema turagodywo tabo, boewo pobo reko tabo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Bai ipoguru boiadodawure ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe emode etaimo nowy iwara kuruce ukwa kuruèe boe ewiri uru epa nure ema, barae ekogodae pegarewy epa nure
+          ema jamedy (dengue, doença de chagas, malária, gastrite, e tosse) boe ekojari. Aru kuru boe elogore pudui bara
+          ekogodae pegarewy ji (hepatite) boe etore ewudu beregadugody epa nure\nema jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere nowy ukwa kow uredudui kodi boe eiogi boe etaora koriji nowy kudurogu boe elogore pudui boe eia
+          pegaji boe eia kuroduji. Boe ere nowy jorubo ukwa kurudo dyji re boe enogwagere boe enoroja pegaji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere mano tawyje aroe padui baiadada dukeje ple aroedo ture remagu pui jamedy mano tabo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>boe ere tugowudu bitudo a pemegare tuwo boe ekuri butudo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurodu kowyje, boe ere kurudo, barae ere juko etaregarewydo ema, iwara jore tow pobo betu rirewu
+          rogu, barae ere betureboe bekurudu tabo.\nAnacardiaceae\nBoe ere nowy a gori kowyje. Boe emode nowy koo araka
+          bu ty (goiaba) kigadurewy i biri keje boe ere beredo pemegare boe epegaguruji. Nowu ukwa boe eiogore pudui
+          ecew barae egore tori meture boe etadaduji (pedra na vesícula), eew barae ekogodae iere (diabete e colesterol
+          alto) epa nure ema jamedy. Boe ere beredo dy boe ekudure ce to kori epace peegare tuwo boe etodo kabi jamedy
+          (depurativo)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tugera pemegado etaimoda jurubo kuruce dy boe ere kurireboe etaimo ce ewidugugodywo boe etore jokuru
+          kurirewy jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe emode tumikado I de tuwai ipodo ema jamedy. Boe ere i biri beredo tugojari epace nowy biri boe epegagur
+          epaõe</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe eno ipo bigody nure ema tumeruwo tumika tabo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe eiogore pudui nowy iwara ukwa tabo tori meture boe etoriwudo tada dyji (pedra nos rins), barae ekogodae
+          iere (vesícula), boe epegaguru, boe ekure kurire boe epiji du, awagu oia pegarewy (tétano). Ere taimo nowy aru
+          kuruce, ekera biadodyré nowy aru tabo, pegarewy monorewy ewo utudo tubiji, ewo barigu tubiji. Ere nowy okora
+          udo turugadu ewo manodo ema (aiagodyre ereru mode tabo). Ere nowy tudu kuru, nowy kurodu kuru reko ia boe,
+          awagoe etoegudure jiboei</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere aru ukwa beredo boe eiogore pudui tabo ake ji, boe ekojari biakure boe eiduji, boe ewiri uruji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere boe jodo i biri keje kody keje boe eiogore pudui tabo taora koriji tumedugody ji. Kuru pemegare boe
+          eto koriji. Boe ere nowy i biri kurudo dy boe eiogore pudui tabo ecewu barae ekogodae pegarewy ure tugeragu
+          boe ei boe erare piji dyji, Boe erubore tudu rogue bokureboeji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tubaro ipodo ema boe ere tuwai jurado ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe emaragodyre ji boe ero kurirewyto biarewyto</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere urugudurogu reko areme emoguro ji uwo kori akedudo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere nowy jorubo kurudo dy tabore boe eiogore pudui boe etogorire pudui dyji boe edawu korire pudui dyji,
+          boe ewogody boe ewiri kigoriji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere nowy i biri beredo dy boe elogore pudui tuwiri urul, turuwo kori, tugojari kurii, tuwiri pegai,
+          etore ewudae re kurire pudui dyji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere aru tugu ty tudo tui turemo boeto dy oto dai tuwure jo kawo awagu keje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere aru uredudu kodi bace ei, Ukwa kow dy urugudu rogure boe ereireko pudui uwo boe pegarewy ja do boe
+          epiji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere boe etore etaimo aru kuruce emeru mariguwo. Boe eiogore boe etore ei ukwa tabo ekawo tugeragu boe
+          pegarewyji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere awy ukwa beredo pemegare boe ewareduji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ewai ipore ema meriri iku ipore ema jamedy-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tumikado i rema, tudaraiga boe ewai ipoguru ure ema jamedy. Boe ere aru araka beredo boe ekuri kori
+          epace dy boe ere boe etore etaimo ce jamedy eduruwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere aru ukwa bu ty pugeje dure boe ere berego boe eiogore tore ei eto botu mariguwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurodu mugudo kurudo boe ere kurodurogu kowyje. Boe ere kuru butudo baito. I biri pemegare boe
+          epegaruruji tuwo boe eragedudo jamedy boe eiogore pudui tabo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere udo ainono kodydu reore (rakare kodi durure kodi)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurodu kowje, iere kaweredo ere nowy enogu kowyje. Ere nowy kaidaga ai oro, ereru tabo (boe itaga,
+          boe jerimaga keje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere tugeragu nowy kaguruji tugojari epaõe, baere tuwogado, boe ekera, boe ewure bokodyre, boe etonaregedo
+          buture maiwu ukunabo bitu mariguwo\nArecaceae\nBoe ere nowy kaidaga a kururogu barigu tuiokuto, taiwo
+          pemegawo, tuiorudu pemegawo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tudogarado ema, tudogo epace, paro, kuiara, kaibori, aragodo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere nowy biaru poporo kurodu ere kurudo tugudywo ce</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurodu kowyje, boe ekere ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere nowy kuru bekuru tugu taoto tao kugudugodywo tao pemegawo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe erbore ema nowy aru, iwara, ukwa ere mugudo joru tada tugudywo ce, uwo tugu pemegado, igurudu pemegawo
+          boe erubo nure ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere nowy aru tugu taokudawu kuda, iadu ere taimo nowy aru kuruce boe ewudugugodywo, boekori kawo boe</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere ikudo toredywo to barege ebo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere mugudo tugudywo de ere berego, nowy aru ere gugudo poboto tuvo taimo tabo, Now a ere mugudo joru tada
+          beregodyo ere epado boe ewini</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Now aru kurùrogu boe ere reko tuwia, togwa poroji bitu mariguwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe enoroe, boe jerimaga, boe itaga kejere pemegadodyre</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Now ukuare ere mugudo joru tada ere beredo tugudywo ce ere tugojari epado ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Nowu aru ere mugudo joru tada ere beredo tugudywo ce ere tugojari epado ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe enoroe nure ema mare boe jerimaga, boe itaga kejere boere tugera kiowado ji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Nowu ukware ere mugudo joru tada berego tugudywo ce, ere tuguri kori, tubegaguru, tuguiboka kori epado ema
+          jamedy, uwo tugu pemegado</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Nowu arogu kududo reko ia tuwure, tubogora kurodurewyji. Nowu ukwa ere mugudo joru tada ere berego tugudywo
+          ce togojari ku epace, ewo tugu pe-megado areme etorewudae, boe etore eku epado ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurodu kowyje, boe ere kodyre maidu tudu kowyje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurodu kowyje. Nowu araka ere mugudo joru tada beregodyre nowy i biri pemegare boe epegaguru epa
+          reno</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tugera kiogwado ji tuwai epace, irawo ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere nowy kurodu mugudo joru tada enogwagere ji. Jaoboe mariguduboe enogwagere kuduji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe erubore nowy aru, nowy ukwa, boe eku pemegawo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere nowy biri padure i kejewu tugu ia meririto pobo tabo, nowy biri ere mugudo joru tada ekudure ce
+          turagedywo. Nowu i tabo ere toroe boe ipodo ema taraiga</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Enogwagere nowo kurodu roguji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere aru mugudo joru tada berego ere epado tuwiri uru, taora kori. Boe ere kowu joruto uredududo uwo boe
+          pegarewu barigu utudo, laboe biarewyre ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Now aru, nowy ukwa boe ere tore etaimo kuruce tore ekogody kawo, tore epega kawo dubogaire eroino ji. Boe
+          ere nowy uru mugudo joru tada tugu-dywo e tuwiri uru epace, tugojari epace, tuguri kori epace</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere araka mugudo joru tada jorubo boe ekojari i epado ema (ikuri epado ema). Boe erubore nowy ioide, boe
+          ere tugana kado, boe ere tumure kado.\nboere iwoi tawyje kogudo nowy korirewu kajeje. Ere nowy araka mugudo
+          joru tada tugojari epado ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe etao epa nure ema boe eiogore ji tabo pemegawo motuwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>\nBoe enogware nowy kUroduJI</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe enogware nowy kuroduji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Nowu i ere tugera kiogwadoji bai epace, irado ema. Ere nowy iwoi, mea kogudo to tugeje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe enogwagere nowy kuroduji, ere kurudo. Ere nowy aru mugudo joru tada, ere tuiedawu kori epado ema, ere
+          awy areme etoroja epado ema, epeme-gawo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe eiogore aroe ei tabo boe ere etugu moto dy oto dai</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ukwa kowudodyre, cododyre boe etorei, erijodu rewo pudui, erijodu mariguwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurudo tugeje enogwagere ji. Now i ure turugado boe ewai, ika, epace. Ere nowy i biri mugudo jory tada boe ecegurugudo epa, boe ekigori epa. Ere nowy a kowy joruto ere nowy tubegaguru epado ema. Ere nowy kody, nowy i kuru tadu, epado boe emearudu ewadywo pudui, tugu cowo. Ere nowy biri okodo tapira mokuro kuru kao tyiorubodo ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurudo tugeje enogwagere ji. Now i ure tyrugado boe ewai, ika, epace. Ere nowy i biri mugudo joru
+          tada boe ecegurugudo epa, boe ekigori epa. Ere nowy a kow joruto ere nowy tubegaguru epado ema. Ere nowy kody,
+          nowy i kuru tadu, epado boe emearudu ewadywo pudui, tugu cowo. Ere nowy biri okodo tapira mokuro kur kao
+          tuiorubodo ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boedoge ere kurudo enogwagere kodyji. Ere nowy kurucodo ewo tadugodo tabo. Ere awy toroe meriri boe ipodo nowy bie ipoce. Ere aroe ekedo ema toro baito. Ere udo urugado bekurudo tuwo tugu taoto, tao kororogodywo. Ere nowy kurodu, jorubo kurudo ema, cegurugudu epace, tugu cowo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere ikado ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere ikado ema. Now ibiri ere tugu poboto tuwure kori epado ema, togorire puduido, tuguri kori, tuguiboka kori epado ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere tuguiedo, bourado ema padywo tuwugeje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe eiogore pudui boe ero kurirewy keje boe ero biarewy keje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tugedo ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere bekurudo tao epace, nowy ukwa ere reko tuwureadoji, tuwureado kawo tuwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Now aru ere mugudo joru tada boe etore jokuruga doge etaragudu kigody akedywo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Ere aru mugudo joru tada ekudure ce, nowy aru ere gugudo jamedy tuwo reko tubogora kuroduji, epogora
+          bokodyre ere rekoji jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurodu kowyje. Ere nowy tudu kagu poboto, tuiorubodo ema, boe ekuri kori pegarewy, boe epegaguru,
+          bakuru korewy peagody. Ere nowy oku mugüdu joru tada, dy ekudure ce, ere areme etoroja epado ema, uwo etoroja
+          pemegado, ekuibokwa kori epado ema jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere aru berego dy boe eiogore aredu kogogodaeji tabo. Boe eiogore aredu ji kuiaruwo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere ukwa, aru uredudywo uwo tuiodo boe pegarewy keje, boere nowy i biri ukwa beredo boe ekuri kori, boe
+          ewiri kurodu, boe etaora</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Barae ere nowy ira bu tuwai aoji, boere aru, ukwa, kowyje jui tabo dy boe eiogore negedorogu kodyi maidu
+          roguji, boe pegarewy jetu kawoji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere boe jodo keje dy ekudure kuruce tugojariji, tuwiri uruji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Kodure boere kowyje, boe eiogore torei aru tabo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe eigore pudui, ukwa tabo tuwo pobogo kowyje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere kurodu kowje, boere betudo, boere kurudo. Boere i kuru okodo norigo kao. Boe erigirire ema. Boe ekera
+          magadure boe eroji kuru tabo. Kuru pemegare boe ekuri koriji. Kuru pemegare boe epegaguru kuji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe eiogore tugogoriji, tuwiri kurody ji tabo, i kuru pemegare boe ekuiboka kori ji jamedy. Boe biri, aru
+          beredo dy boere reko kigori pegarewyji, awy barae egore diabete epare ema. Boe ekuiboka kori epare ema jamedy.
+          Boe eiogore tugogoriji aru tabo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere aru, ukwa berego dy pemegare boe etaora kori ji barae egore conceptivo ji jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere ukwa berego boe ekuri kori epace</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere kurodu kowyje, boere kurudo jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere kurodu kowyje, boere kurudo jamedy, boere aru enogu beredo boe epegagúru epace</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere kurodu kowyje boere kurudo jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere ukwa beredo boe epegaguru, boe ekuri kugudu epace jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere nowy ito kuru epado boe eto kori epace, boe ekojari epace, awy boe ekeno meadu jiwu boe ekogodae</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere reko, boe etore kodyre maiwu biriji kiogwagiri otodai (boe ero iedody). Boe eto kori epare nowy i
+          kuru, boere nowy i uru berego tugojari epace awu\nboe ekeno meadu jiwu boe ekogodae epare ema jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere Kurodu kowyje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere i biri kuru tawyje dy boe ekudure ce boere reko awagu oiaji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boere kurodu kowyje, Boere ukwa kowu dy boe elogore boe etonaregedu kodyre maiwuli tabo, boe eniao pegaji.
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere aru beredo (barure ekogodyre) barae ekogody (diabetes) ji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere to beragu udo ce boe ero kurirewy keje. Boe ere nowy beragu tugu ropa doge eworito boe ere tuwaiga
+          bekurododore</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kody kowyje tubegaguru ji. Boe ere aru gugudo dure boe ere tugu ty tuieto boe ero kurirewy kejeBoe
+          ere tudu kowyje tubegaguruji. Boe ere aru gugudo dure boe ere tugu ty tuieto boe ero kurirewy keje</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>boe jodo i biri keje boe ere tugu poboto dy cere boe ekudure awagu oia ji boe ere reko oia mugaji jamedy.
+          Boe ere tuwai ipodo ema jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere ukwa i biri beredo dy cere boe ekudure tubegaguruji, tuguri koruji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe erubore nowy tudurogu kuruce akogo akedywo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere ukwa beredo dy boe erubore ema barae ekogodoe e ekure dyji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere turagedu epado ukwa kuruce</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere ikudo kodyduce</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>tugudu kowyje a jamedy. Boe enoguagere kaguru tugo boeto. Boe ekaia ure i ce. Boe ere kurirewy to. Boe
+          enoguagere aru kuruji turagedywo\nukwa boe etori wuduji. Boe ere berego tugojari raiji, aru areme emoguro kori
+          ji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere ukwa beredo boe e kigadure dyji, boe etore e ekure dyji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tugu tugeto, aru pemegare bokureboeji.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tuwai jurado ema ipodo ema. Boe ere barege ekogodado do ema</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tugodydudo ema, tuwai jurado tuwai aogajejeu megajejeudo ema jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere kurodu kowyje kurudo jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere tuwaido ipoce boe ere kow mace dogei jamedy. Boe ere taimo i biri kuru ce tuguri kugudu tugu tabo
+          dyji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere i biri beredo dy cere boe ekudure tore eudae ure boe epebaru korido dyji pemegare tuwo boe etodo
+          kabi jamedy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere ukwa beredo dy cere boe ekudure barae ekogodae mugure boe ekui boka keje dyji boe ewiri uruji
+          jamedy.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe ere aru kowyje turuwo wadywo turaji boe ere aru beredo tore eudae ure tubebaru korido dyji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
 
- <tr>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>Boe enogwagere ji tugudy ji torudody ji</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Boe enogwagere ji tugudy ji torudody ji</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
 
- <tr>
-   <td>Pau de barata </td>
-   <td>Ore epa iorubo </td>
-   <td>Toulicia laevigata</td>
-   <td></td>
-   <td>Flexionam as folhas nas picadas da tucanguira</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/1319611018/media/b3515856309a14f74d5e592f8378601b</td>
- </tr>
- <tr>
-   <td>Caínca (cipó)</td>
-   <td>Readoge iorubo</td>
-   <td>Chiococca alba</td>
-   <td></td>
-   <td>O caule carbonizado, associado à almecega (kidoguru – resina da amescla ou breu branco) é aplicado nas inflamações</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>https://upload.wikimedia.org/wikipedia/commons/2/2d/Chiococca_alba.jpg</td>
- </tr>
- <tr>
-   <td>Jatobá do Campo </td>
-   <td>Boe erubo bokwadyi aro rumaga </td>
-   <td></td>
-   <td></td>
-   <td>As folhas na água substitue os sabonetes nos banhos evitando as doenças contagiosas</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Hymenaea_courbaril_1.jpg/1920px-Hymenaea_courbaril_1.jpg</td>
- </tr>
- <tr>
-   <td>Batata do Bugre</td>
-   <td>Boe okoripadi boikagigedy epa </td>
-   <td></td>
-   <td></td>
-   <td>As folhas na água substitue os sabonetes nos banhos evitando as doenças contagiosas</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Cabelo de Negro (casca branca)</td>
-   <td>Cudobo  iorubo </td>
-   <td>Guazuma ulmifolia</td>
-   <td></td>
-   <td>Crença indígena, de que jogando as folhas na direção para qual a caça corre, diminui a ação, dando oportunidade de ser abatido pelos ind´ígenas sem grandes esforços</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guazuma_ulmifolia-_Campus_Unimontes-_Montes_Claros.jpg/900px-Guazuma_ulmifolia-_Campus_Unimontes-_Montes_Claros.jpg</td>
- </tr>
- <tr>
-   <td>Erva Molar / língua de vaca </td>
-   <td>Kie o Jorubo ikui </td>
-   <td></td>
-   <td></td>
-   <td>Esfregam as folha a noite nas pernas para não serem picados por cobras</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Gravatá / Macambira</td>
-   <td>Ocerago</td>
-   <td></td>
-   <td></td>
-   <td>As flores os índios colocam nos orifícios das orelhas para terem vivacidade e não esquecerem os grandes cânticos religiosos</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Lírio do campo</td>
-   <td>Bope iorubo / Meriri iorubo</td>
-   <td></td>
-   <td></td>
-   <td>Na ausência do Bari, as caças que abatem, e que são necessárias serem benzidas os índios cobrem com as folhas as caças para que não recebam o castigo do Bope (espírito maligno que segundo a lenda, acompanha os bororo incrédulos.)</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Caeté</td>
-   <td>Aroe erubo</td>
-   <td></td>
-   <td></td>
-   <td>Por ocasião da festa do Marido, os índios esfregam as folhas no corpo e colocam os ramos nas orelhas, para poderem ter relações sexuais e não morrerem</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Dormideira</td>
-   <td>Betaga o jorubo</td>
-   <td></td>
-   <td></td>
-   <td>As raízes triturada, é passada nas distenções musculares eliminando as dores</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Canela de ema</td>
-   <td>Parikigarewy</td>
-   <td></td>
-   <td></td>
-   <td>O fruto mastigado e expelido, é remédio contra dores de garganta</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Unha de Boi</td>
-   <td>Atuboe Jagarewy</td>
-   <td></td>
-   <td></td>
-   <td>Quando por engano os índios matam um veado servo (Atubo). caça esta que só por engano matam-a, amedrontados com a sentença de morte que lhe é atribuída, passam as folhas no rosto e ficam isentos do castigo</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Coroa de frade</td>
-   <td>Care erubo biarepoporo </td>
-   <td></td>
-   <td></td>
-   <td>As folhas são colocadas nas redes de pesca para apanhar grande quantidade de peixes</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Mulateira </td>
-   <td>Boecuri naregedo jorubo epa poro ji</td>
-   <td></td>
-   <td></td>
-   <td>A madeira carbonizada é passada sobre o ventre da mulher grávida para que i filho nasça robusto</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Japecanga </td>
-   <td>Boto cujagurewy biagarewy</td>
-   <td></td>
-   <td></td>
-   <td>As raízes raspadas, passadas no rosto, permitem que o índio que estiver envenenado por outro nada sofra</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Vinhático</td>
-   <td>Arareuodarewy </td>
-   <td></td>
-   <td></td>
-   <td>As cascas na água bebem contra dores de barriga</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Imbirussú </td>
-   <td>Curobo i</td>
-   <td></td>
-   <td></td>
-   <td>Todo índio que já matou muitas onças, ficam sujeito a sonhos maus com onças, para evitar isto, usam tirar uma imbira para amarrarem ao pescoço quando vão dormir</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Cruzeiro</td>
-   <td>Joguare o jorubo</td>
-   <td></td>
-   <td></td>
-   <td>Os frutos esmigalhados passam na cara dos cachorros, para tornarem bons para seguir a caça</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
- <tr>
-   <td>Pega Pinto</td>
-   <td>Boe curi kuriepa ikurewy</td>
-   <td></td>
-   <td></td>
-   <td>Cozinham as folhas e bebem contra dores de barriga</td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
- </tr>
-<tr>
-<td>Algodãozinho</td>
-<td>Bacororoepa akigo orewy</td>
-<td></td>
-<td></td>
-<td>As raízes na água em banhos, após os cânticos, para evitar dores de cabeça, garganta, mal estar etc</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Cajú do campo</td>
-<td>Koco</td>
-<td></td>
-<td></td>
-<td>As folhas tenras mastigadas passam nos olhos para provocarem a insônia</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Caroba</td>
-<td>Parikiogodo o jorubo</td>
-<td></td>
-<td></td>
-<td>A raiz em chá contra dores de urina</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Caeté</td>
-<td>Boe erudogimano aro</td>
-<td></td>
-<td></td>
-<td>Por ocasião da festa do Mano, si por acaso as índias presenciam a sua chegada, adoecem de asma, então usam queimar a raiz desta planta, e misturam com almecega, passando no rosto das índias, e estas, ficam boas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Kodu i iporewy</td>
-<td>Figueira</td>
-<td></td>
-<td></td>
-<td>(merindiba) O leite da madeira é usado para conservar o urucum no estado pastoso</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Aritucum do campo</td>
-<td>Iwararagarewy</td>
-<td></td>
-<td></td>
-<td>As raízes os índios queimam, projetando a fumaça para o lado em que se encontra uma pessoa, que deseja que adoeça</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Chá de frade</td>
-<td>Oqua iorubo</td>
-<td></td>
-<td></td>
-<td>Batem as folhas nas pernas para não cansarem nas caminhadas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Pau de Morcego</td>
-<td>Koge eibarararewy</td>
-<td></td>
-<td></td>
-<td>As folhas substituem o sabão</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Fumo Bravo</td>
-<td>Mearurewy</td>
-<td></td>
-<td></td>
-<td>As folhas esfregadas nas mãos, passam na parte frontal da cabeça contra dores</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Cambará</td>
-<td>Cogekereru í</td>
-<td></td>
-<td></td>
-<td>O chá das folhas tenras contra a tosse</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Ata do Mato</td>
-<td>Paragorewy iorubo</td>
-<td></td>
-<td></td>
-<td>Colocam a imbira no pescoço quando viajam, para não adoecerem</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Marmelada de copinho</td>
-<td>Arika</td>
-<td></td>
-<td></td>
-<td>A madeira fazem armação do buque (rede de pesca)
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Tucum</td>
-<td>Bukedaga enogo</td>
-<td></td>
-<td></td>
-<td>Cozinham o palmito e bebem a água contra febres</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Marmelada Preta</td>
-<td>Boco ika</td>
-<td></td>
-<td></td>
-<td>O carvão do caule é passado no rosto, contra perturbações mentais</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Piqui</td>
-<td>Eco ipo</td>
-<td></td>
-<td></td>
-<td>O carvão da madeira, os índios comem contra a hemoptise (Cuspir sangue)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Capim de praia</td>
-<td>Kioro</td>
-<td></td>
-<td></td>
-<td>O caule queimado aplicam nas feridas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Lixeira</td>
-<td>Manaru tugo epa</td>
-<td></td>
-<td></td>
-<td>Para lixar as pontas das flechas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Timbó </td>
-<td>Cudo i</td>
-<td></td>
-<td></td>
-<td>Por ocasião das festas, as índias recusam a virem tomar parte nos cânticos, então um índio apanha as folhas, esfrega-as nas mãos, e, lança sobre as casas das índias, logo depois todas elas vêm tomar parte nos festejos</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Aritucum folhas grandes</td>
-<td>Jeporo</td>
-<td></td>
-<td></td>
-<td>Esfregando as folhas nos olhos dos adversários cegam-nos imediatamente</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Angelim</td>
-<td>Paequejorubo</td>
-<td></td>
-<td></td>
-<td>Mastigam as folhas para terem bôa voz</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Imbaiba, Umbaiba ou Umbaúva como falam em Mato Grosso</td>
-<td>Kujare epa jorubo</td>
-<td></td>
-<td></td>
-<td>O chá das folhas contra tosses</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Guavira</td>
-<td>Joku kuie tai</td>
-<td></td>
-<td></td>
-<td>A raiz carbonizada passam no rosto contra febres</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Azedinha</td>
-<td>Boeto Pagoduda</td>
-<td></td>
-<td></td>
-<td>O sumo das folhas contra picada de escorpião</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Mama de Porca</td>
-<td>Kie emogorurewy </td>
-<td></td>
-<td></td>
-<td>Passam as folhas no seio das menores impúberes, para não terem seios grandes quando moças</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Curraleira</td>
-<td>Orogo iorubo</td>
-<td></td>
-<td></td>
-<td>Mastigam as folhas para serem bons para correr</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Paineira</td>
-<td>Aroecody dorewy</td>
-<td></td>
-<td></td>
-<td>As imbiras são usadas para amarrar as caças abatidas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Limão bravo</td>
-<td>Boto kujagurewy</td>
-<td></td>
-<td></td>
-<td>O caule é usado nos feitiços</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Mandioca Brava</td>
-<td>Ju umana</td>
-<td></td>
-<td></td>
-<td>As folhas introduzem nos cazeiros das saúvas, extinguindo-as</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Algodãozinho folhas espinhosas</td>
-<td>Kimao</td>
-<td></td>
-<td></td>
-<td>Para os mesmos fins do N 25</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Unha de gato</td>
-<td>Jugodoge eimejera o jorubo</td>
-<td></td>
-<td></td>
-<td>Passam as folhas na boca, para quando conversarem atraírem as outras pessoas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Hortelã do Campo</td>
-<td>Cogure iorubo</td>
-<td></td>
-<td></td>
-<td>As folhas na água bebem contra dores de garganta</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Alecrim</td>
-<td>Ocogue iorubo</td>
-<td></td>
-<td></td>
-<td>As folhas esmigalhadas com almecega, passam sobre o ventre da mulher que acabou de ter o parto, desaparecendo as dores</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Canela de seriema</td>
-<td>Beojorubo</td>
-<td></td>
-<td></td>
-<td>O caule queimado passam nas pernas dos meninos para não luxar</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Peroba</td>
-<td>Toroa i</td>
-<td></td>
-<td></td>
-<td>(Ipê) Da madeira faziam antigamente o cabo dos machados de pedra</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Cascudo</td>
-<td>Acorewy</td>
-<td></td>
-<td></td>
-<td>(olho de boi) O caule carbonizado, passam no tórax em sentido longitudinal</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Sete Sangrias</td>
-<td>Boetore echeba jorubo iôdo</td>
-<td></td>
-<td></td>
-<td>Usam o leite no orifício labial para cicatrizar</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Goiabinha do Mato</td>
-<td>Baregue evirerewy</td>
-<td></td>
-<td></td>
-<td>A casca queimada, aplicam na cabeça contra a caspa e contra o embranquecimento prematuro dos cabelos</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Roseira do Campo</td>
-<td>Jorubo Pakatuje</td>
-<td></td>
-<td></td>
-<td>Usam esfregar as folhas no corpo para evitar doenças</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Imbirusú rasteiro</td>
-<td>Baiugo</td>
-<td></td>
-<td></td>
-<td>Esfregam o carvão da madeira, quando furam os dentes das onças abatidas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Pau de Oleo</td>
-<td>Baria i</td>
-<td></td>
-<td></td>
-<td>O óleo passado sobre o ventre da mulher, faz com que esta fique gravida sempre</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Garrafãozinho</td>
-<td>Tabaro ó jorubo</td>
-<td></td>
-<td></td>
-<td>O banho do cozimento das folhas dado a índia que acabou de ter o parto e ao recém nascido, faz com que este não seja traquinas (travesso, inquieto, danado)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Piúva do Campo</td>
-<td>Boe inuiaupega epa</td>
-<td></td>
-<td></td>
-<td>O carvão da madeira passam no rosto para evitar maus sonhos</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Negro Mina</td>
-<td>Boeerubo podetugorogorewy</td>
-<td></td>
-<td></td>
-<td>As folhas esfregam no peito contra dores</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Boca de sapo</td>
-<td>Aige iorubo</td>
-<td></td>
-<td></td>
-<td>As folhas passam no corpo da índia que viu o Aíge</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Erva Mijona</td>
-<td>Jugo epa</td>
-<td></td>
-<td></td>
-<td>Esfregam as folhas nas pontas das flechas envenenando-as</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Samambaia Mirim</td>
-<td>Jomo iorubo</td>
-<td></td>
-<td></td>
-<td>Colocam as folhas nas orelhas quando vão a pescar</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Semente de algodão</td>
-<td>Roia epe</td>
-<td></td>
-<td></td>
-<td>Socado, o óleo passam nos occipitais (nuca) para terem boa memoria</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Goiabinha do Cerrado</td>
-<td>Nabure uke jorubo</td>
-<td></td>
-<td></td>
-<td>Mastigam as folhas para gritarem bem alto</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Palmito da gariroba</td>
-<td>Mariguido Ariri</td>
-<td></td>
-<td></td>
-<td>O caule tenro queimado passam no ventre da mulher para ter filhos
-(Comem ou chupam também)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Metygo iorubo</td>
-<td>Cipó de Leite</td>
-<td></td>
-<td></td>
-<td>Comem as folhas para terem voz grossa</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Cipó d'água</td>
-<td>Marugodo uke iorubo</td>
-<td></td>
-<td></td>
-<td>Passam o carvão do cipó na barriga das crianças contra a diarreia infantil</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Bolsa de carneiro</td>
-<td>Mace inodorewy iorubo</td>
-<td></td>
-<td></td>
-<td>O fruto queimado passam nos peitos contra asma</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Peroba do Campo</td>
-<td>Boigabe iorubo</td>
-<td></td>
-<td></td>
-<td>(Ipê) Esfregam e jogam as folhas evitando serem atingidos pelos raios</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Quidoguro jaivurewy</td>
-<td>Garrafinha</td>
-<td></td>
-<td></td>
-<td>As cinzas das folhas com almacega (kidoguru) passam no corpo como remédio e para pregarem os enfeites</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Pau doce</td>
-<td>Araguioro iorubo</td>
-<td></td>
-<td></td>
-<td>As folhas socadas com um pouco de agua usam como vomitório após as picadas de cobras venenosas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Genciana</td>
-<td>Quiôgo rogo jorubo ore</td>
-<td></td>
-<td></td>
-<td>Esfregam as folhas no rosto para encontrarem muita caça</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Guaraná do Campo</td>
-<td>Boeco pega iorubo</td>
-<td></td>
-<td></td>
-<td>Esquentam as folhas e colocam sobre os olhos para melhorar as vistas</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Congonhas</td>
-<td>Boe itaura coiepa</td>
-<td></td>
-<td></td>
-<td>(congonha-de-bugre) Tiram a raiz e cheiram contra resfriado</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Capa Rosa</td>
-<td>Jorubo macarewy</td>
-<td></td>
-<td></td>
-<td>O chá das folhas contra febres</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Sucupira Preta</td>
-<td>Quie peguru guiguirirewy</td>
-<td></td>
-<td></td>
-<td>Quando as frutas caem, afirmam os índios que terá chuvas torrenciais</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Breu</td>
-<td>Baregue equerorewy</td>
-<td></td>
-<td></td>
-<td>Colocam  o carvão da madeira com almacega nos arcos para perseguir a onça</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Garrafinha (rasteira)</td>
-<td>Piodudo iorubo</td>
-<td></td>
-<td></td>
-<td>A raiz e as folhas carbonizadas passam sobre o ventre da mulher para ter o filho com 7 e 8 meses, e com poucas dores</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Joá / juá de espinhos</td>
-<td>Toguge otarewy</td>
-<td></td>
-<td></td>
-<td>O fruto cortado ao meio, colocam sobre os bubons (forúnculos) para resolverem</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Mata Passo Bravo</td>
-<td>Kegue tororewy</td>
-<td></td>
-<td></td>
-<td>Quando estão querendo matar arara na espera, e esta não aparece, cortam um galho desta planta e colocam sobre o esconderijo em que se encontram e logo parecem as araras</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Cinco folhas</td>
-<td>Meri iorubo</td>
-<td></td>
-<td></td>
-<td>Quando nas longas caminhadas acham que com a luz do dia não alcançam o lugar desejado para pernoitar, cortam um pau fino desta planta e giram em direção do sol, acreditam que o sol para e espera o índio chegar ao lugar desejado Será possível? (assim está escrito)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Raiz de Bugre</td>
-<td>Kudobo iorubo</td>
-<td></td>
-<td></td>
-<td>Cogumelo (conhecido como chapéu  de sapo) Esmigalhados esfregam na mão e passam nas crianças para serem ativos</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Raiz de Bugre</td>
-<td>Reco iorubo</td>
-<td></td>
-<td></td>
-<td>A raiz socada em pequena quantidade com agua e bebida para engordar (Fortificante, tonificante)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Ariri (folhas finas palmeira)</td>
-<td>Boiro</td>
-<td></td>
-<td></td>
-<td>serve para amarrar outras plantas venenosas quando eliminam os seus desafetos</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Velame</td>
-<td>Amo iorubo</td>
-<td></td>
-<td></td>
-<td>A raiz carbonizada passaram no corpo das crianças para não andarem muito</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Assa peixe</td>
-<td>Uto iorubo</td>
-<td></td>
-<td></td>
-<td>Esfregam as folhas nas mulheres para não adoecerem</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Ariticum folha média, rasteiro</td>
-<td>Wiarurewy</td>
-<td></td>
-<td></td>
-<td>Queimam as folhas dentro de casa para evitar doenças
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-        </tbody>
-      </table>
-    </body>
-  </html>
+      <tr>
+        <td>Pau de barata </td>
+        <td>Ore epa iorubo </td>
+        <td>Toulicia laevigata</td>
+        <td></td>
+        <td>Flexionam as folhas nas picadas da tucanguira</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/1319611018/media/b3515856309a14f74d5e592f8378601b
+        </td>
+      </tr>
+      <tr>
+        <td>Caínca (cipó)</td>
+        <td>Readoge iorubo</td>
+        <td>Chiococca alba</td>
+        <td></td>
+        <td>O caule carbonizado, associado à almecega (kidoguru – resina da amescla ou breu branco) é aplicado nas
+          inflamações</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/2/2d/Chiococca_alba.jpg</td>
+      </tr>
+      <tr>
+        <td>Jatobá do Campo </td>
+        <td>Boe erubo bokwadyi aro rumaga </td>
+        <td></td>
+        <td></td>
+        <td>As folhas na água substitue os sabonetes nos banhos evitando as doenças contagiosas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Hymenaea_courbaril_1.jpg/1920px-Hymenaea_courbaril_1.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Batata do Bugre</td>
+        <td>Boe okoripadi boikagigedy epa </td>
+        <td></td>
+        <td></td>
+        <td>As folhas na água substitue os sabonetes nos banhos evitando as doenças contagiosas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cabelo de Negro (casca branca)</td>
+        <td>Cudobo iorubo </td>
+        <td>Guazuma ulmifolia</td>
+        <td></td>
+        <td>Crença indígena, de que jogando as folhas na direção para qual a caça corre, diminui a ação, dando oportunidade de ser abatido pelos ind´ígenas sem grandes esforços</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guazuma_ulmifolia-_Campus_Unimontes-_Montes_Claros.jpg/900px-Guazuma_ulmifolia-_Campus_Unimontes-_Montes_Claros.jpg
+        </td>
+      </tr>
+      <tr>
+        <td>Erva Molar / língua de vaca </td>
+        <td>Kie o Jorubo ikui </td>
+        <td>Holcus mollis</td>
+        <td></td>
+        <td>Esfregam as folha a noite nas pernas para não serem picados por cobras</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Holcus_mollis_inflorescence_kz.jpg/560px-Holcus_mollis_inflorescence_kz.jpg</td>
+      </tr>
+      <tr>
+        <td>Gravatá / Macambira</td>
+        <td>Ocerago</td>
+        <td></td>
+        <td></td>
+        <td>As flores os bororo colocam nos orifícios das orelhas para terem vivacidade e não esquecerem os grandes
+          cânticos religiosos</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Lírio do campo</td>
+        <td>Bope iorubo / Meriri iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Na ausência do Bari, as caças que abatem, e que são necessárias serem benzidas os bororo cobrem com as folhas as caças para que não recebam o castigo do Bope (espírito maligno que segundo a lenda, acompanha os bororo incrédulos.)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Caeté</td>
+        <td>Aroe erubo</td>
+        <td></td>
+        <td></td>
+        <td>Por ocasião da festa do Marido, os bororo esfregam as folhas no corpo e colocam os ramos nas orelhas, para
+          poderem ter relações sexuais e não morrerem</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Dormideira</td>
+        <td>Betaga o jorubo</td>
+        <td></td>
+        <td></td>
+        <td>As raízes triturada, é passada nas distenções musculares eliminando as dores</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Canela de ema</td>
+        <td>Parikigarewy</td>
+        <td>Vellozia squamata</td>
+        <td>Velloziaceae</td>
+        <td>O fruto mastigado e expelido, é remédio contra dores de garganta</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Vellozia_squamata_Pohl99.png/400px-Vellozia_squamata_Pohl99.png</td>
+      </tr>
+      <tr>
+        <td>Unha de Boi</td>
+        <td>Atuboe Jagarewy</td>
+        <td></td>
+        <td></td>
+        <td>Quando por engano os bororo matam um veado servo (Atubo). caça esta que só por engano matam-a, amedrontados
+          com a sentença de morte que lhe é atribuída, passam as folhas no rosto e ficam isentos do castigo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Coroa de frade</td>
+        <td>Care erubo biarepoporo </td>
+        <td></td>
+        <td></td>
+        <td>As folhas são colocadas nas redes de pesca para apanhar grande quantidade de peixes</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mulateira </td>
+        <td>Boecuri naregedo jorubo epa poro ji</td>
+        <td></td>
+        <td></td>
+        <td>A madeira carbonizada é passada sobre o ventre da mulher grávida para que i filho nasça robusto</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Japecanga </td>
+        <td>Boto cujagurewy biagarewy</td>
+        <td></td>
+        <td></td>
+        <td>As raízes raspadas, passadas no rosto, permitem que o índio que estiver envenenado por outro nada sofra</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Vinhático</td>
+        <td>Arareuodarewy </td>
+        <td></td>
+        <td></td>
+        <td>As cascas na água bebem contra dores de barriga</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Imbirussú </td>
+        <td>Curobo i</td>
+        <td>Pseudobombax grandiflorum</td>
+        <td></td>
+        <td>Todo índio que já matou muitas onças, ficam sujeito a sonhos maus com onças, para evitar isto, usam tirar
+          uma imbira para amarrarem ao pescoço quando vão dormir</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4028775568/media/bac4b1eb8c4ec114789267a28391411f</td>
+      </tr>
+      <tr>
+        <td>Cruzeiro</td>
+        <td>Joguare o jorubo</td>
+        <td></td>
+        <td></td>
+        <td>Os frutos esmigalhados passam na cara dos cachorros, para tornarem bons para seguir a caça</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Pega Pinto</td>
+        <td>Boe curi kuriepa ikurewy</td>
+        <td></td>
+        <td></td>
+        <td>Cozinham as folhas e bebem contra dores de barriga</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Algodãozinho</td>
+        <td>Bacororoepa akigo orewy</td>
+        <td></td>
+        <td></td>
+        <td>As raízes na água em banhos, após os cânticos, para evitar dores de cabeça, garganta, mal estar etc</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cajú do campo</td>
+        <td>Koco</td>
+        <td>Anacardium humile</td>
+        <td></td>
+        <td>As folhas tenras mastigadas passam nos olhos para provocarem a insônia</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cajuzindo-do-cerrado.jpg/440px-Cajuzindo-do-cerrado.jpg</td>
+      </tr>
+      <tr>
+        <td>Caroba</td>
+        <td>Parikiogodo o jorubo</td>
+        <td>Jacaranda caroba</td>
+        <td></td>
+        <td>A raiz em chá contra dores de urina</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flickr_-_João_de_Deus_Medeiros_-_Jacaranda_caroba.jpg/560px-Flickr_-_João_de_Deus_Medeiros_-_Jacaranda_caroba.jpg</td>
+      </tr>
+      <tr>
+        <td>Caeté</td>
+        <td>Boe erudogimano aro</td>
+        <td></td>
+        <td></td>
+        <td>Por ocasião da festa do Mano, si por acaso as índias presenciam a sua chegada, adoecem de asma, então usam queimar a raiz desta planta, e misturam com almecega, passando no rosto das índias, e estas, ficam boas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Figueira</td>
+        <td>Kodu i iporewy</td>
+        <td>Ficus obtusifolia</td>
+        <td>Moraceae</td>
+        <td>(merindiba) O leite da madeira é usado para conservar o urucum no estado pastoso</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mi_chilamate_..._-_panoramio.jpg/440px-Mi_chilamate_..._-_panoramio.jpg</td>
+      </tr>
+      <tr>
+        <td>Aritucum do campo</td>
+        <td>Iwararagarewy</td>
+        <td>Annona crassiflora</td>
+        <td></td>
+        <td>As raízes os bororo queimam, projetando a fumaça para o lado em que se encontra uma pessoa, que deseja que adoeça</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4892199952/media/a0e823cf09cb39b46496369a642121d8</td>
+      </tr>
+      <tr>
+        <td>Chá de frade</td>
+        <td>Okwa iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Batem as folhas nas pernas para não cansarem nas caminhadas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Pau de Morcego</td>
+        <td>Koge eibarararewy</td>
+        <td>Andira fraxinifolia</td>
+        <td></td>
+        <td>As folhas substituem o sabão</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Andira_fraxinifolia_Benth..jpg/500px-Andira_fraxinifolia_Benth..jpg</td>
+      </tr>
+      <tr>
+        <td>Fumo Bravo</td>
+        <td>Mearurewy</td>
+        <td></td>
+        <td></td>
+        <td>As folhas esfregadas nas mãos, passam na parte frontal da cabeça contra dores</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cambará</td>
+        <td>Cogekereru í</td>
+        <td></td>
+        <td></td>
+        <td>O chá das folhas tenras contra a tosse</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ata do Mato</td>
+        <td>Paragorewy iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Colocam a imbira no pescoço quando viajam, para não adoecerem</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Marmelada de copinho</td>
+        <td>Arika</td>
+        <td></td>
+        <td></td>
+        <td>A madeira fazem armação do buque (rede de pesca)
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Tucum</td>
+        <td>Bukedaga enogo</td>
+        <td></td>
+        <td></td>
+        <td>Cozinham o palmito e bebem a água contra febres</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Marmelada Preta</td>
+        <td>Boco ika</td>
+        <td></td>
+        <td></td>
+        <td>O carvão do caule é passado no rosto, contra perturbações mentais</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Piqui</td>
+        <td>Eco ipo</td>
+        <td></td>
+        <td></td>
+        <td>O carvão da madeira, os bororo comem contra a hemoptise (cuspir sangue)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Capim de praia</td>
+        <td>Kioro</td>
+        <td></td>
+        <td></td>
+        <td>O caule queimado aplicam nas feridas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Lixeira</td>
+        <td>Manaru tugo epa</td>
+        <td>Aloysia virgata</td>
+        <td></td>
+        <td>Para lixar as pontas das flechas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/190908_174_Chicago_Botanic_Gdn_-_Regenstein_Center%2C_Aloysia_virgata_Sweet_Almond_Verbena_%2848861040878%29.jpg/560px-190908_174_Chicago_Botanic_Gdn_-_Regenstein_Center%2C_Aloysia_virgata_Sweet_Almond_Verbena_%2848861040878%29.jpg</td>
+      </tr>
+      <tr>
+        <td>Timbó </td>
+        <td>Cudo i</td>
+        <td></td>
+        <td></td>
+        <td>Por ocasião das festas, as índias recusam a virem tomar parte nos cânticos, então um índio apanha as folhas, esfrega-as nas mãos, e, lança sobre as casas das índias, logo depois todas elas vêm tomar parte nos festejos
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Aritucum folhas grandes</td>
+        <td>Jeporo</td>
+        <td></td>
+        <td></td>
+        <td>Esfregando as folhas nos olhos dos adversários cegam-nos imediatamente</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Angelim</td>
+        <td>Paekejorubo</td>
+        <td></td>
+        <td></td>
+        <td>Mastigam as folhas para terem bôa voz</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Imbaiba / Umbaiba / Umbaúva</td>
+        <td>Kujare epa jorubo</td>
+        <td></td>
+        <td></td>
+        <td>O chá das folhas contra tosses</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Guavira</td>
+        <td>Joku kuie tai</td>
+        <td></td>
+        <td></td>
+        <td>A raiz carbonizada passam no rosto contra febres</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Azedinha</td>
+        <td>Boeto Pagodyda</td>
+        <td></td>
+        <td></td>
+        <td>O sumo das folhas contra picada de escorpião</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mama de Porca</td>
+        <td>Kie emogorurewy </td>
+        <td></td>
+        <td></td>
+        <td>Passam as folhas no seio das menores impúberes, para não terem seios grandes quando moças</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Curraleira</td>
+        <td>Orogo iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Mastigam as folhas para serem bons para correr</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Paineira</td>
+        <td>Aroecody corewy</td>
+        <td></td>
+        <td></td>
+        <td>As imbiras são usadas para amarrar as caças abatidas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Limão bravo</td>
+        <td>Boto kujagurewy</td>
+        <td></td>
+        <td></td>
+        <td>O caule é usado nos feitiços</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mandioca Brava</td>
+        <td>Ju umana</td>
+        <td></td>
+        <td></td>
+        <td>As folhas introduzem nos cazeiros das saúvas, extinguindo-as</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Algodãozinho folhas espinhosas</td>
+        <td>Kimao</td>
+        <td></td>
+        <td></td>
+        <td>Para os mesmos fins do N 25</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Unha de gato</td>
+        <td>Jugodoge eimejera o jorubo</td>
+        <td></td>
+        <td></td>
+        <td>Passam as folhas na boca, para quando conversarem atraírem as outras pessoas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Hortelã do Campo</td>
+        <td>Cogure iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Bebem as folhas na água contra dores de garganta</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Alecrim</td>
+        <td>Ocoge iorubo</td>
+        <td></td>
+        <td></td>
+        <td>As folhas esmigalhadas com almecega, passam sobre o ventre da mulher que acabou de ter o parto, desaparecendo as dores</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Canela de seriema</td>
+        <td>Beojorubo</td>
+        <td></td>
+        <td></td>
+        <td>O caule queimado passam nas pernas dos meninos para não luxar</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Peroba</td>
+        <td>Toroa i</td>
+        <td>Aspidosperma polyneuron</td>
+        <td>Apocynaceae</td>
+        <td>(Ipê) Da madeira faziam antigamente o cabo dos machados de pedra</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/PALO_ROSA.jpeg/440px-PALO_ROSA.jpeg</td>
+      </tr>
+      <tr>
+        <td>Cascudo (olho de boi)</td>
+        <td>Acorewy</td>
+        <td></td>
+        <td></td>
+        <td>Passam o caule carbonizado no tórax em sentido longitudinal</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Sete Sangrias</td>
+        <td>Boetore echeba jorubo iôdo</td>
+        <td>Cuphea carthagenensis</td>
+        <td></td>
+        <td>Usam o leite no orifício labial para cicatrizar</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Colombian_waxweed_%285736084223%29.jpg/560px-Colombian_waxweed_%285736084223%29.jpg</td>
+      </tr>
+      <tr>
+        <td>Goiabinha do Mato</td>
+        <td>Baregue evirerewy</td>
+        <td>Psidium guineense</td>
+        <td></td>
+        <td>A casca queimada, aplicam na cabeça contra a caspa e contra o embranquecimento prematuro dos cabelos</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Araçá_do_Campo%281%29.jpg/560px-Araçá_do_Campo%281%29.jpg</td>
+      </tr>
+      <tr>
+        <td>Roseira do Campo</td>
+        <td>Jorubo Pakatuje</td>
+        <td></td>
+        <td></td>
+        <td>Usam esfregar as folhas no corpo para evitar doenças</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Imbirusú rasteiro</td>
+        <td>Baiugo</td>
+        <td></td>
+        <td></td>
+        <td>Esfregam o carvão da madeira, quando furam os dentes das onças abatidas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Pau de Oleo</td>
+        <td>Baria i</td>
+        <td></td>
+        <td></td>
+        <td>O óleo passado sobre o ventre da mulher, faz com que esta fique gravida sempre</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Garrafãozinho</td>
+        <td>Tabaro ó jorubo</td>
+        <td></td>
+        <td></td>
+        <td>O banho do cozimento das folhas dado a índia que acabou de ter o parto e ao recém nascido, faz com que este
+          não seja traquinas (travesso, inquieto, danado)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Piúva do Campo</td>
+        <td>Boe inuiaupega epa</td>
+        <td></td>
+        <td></td>
+        <td>O carvão da madeira passam no rosto para evitar maus sonhos</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Negro Mina</td>
+        <td>Boeerubo podetugorogorewy</td>
+        <td></td>
+        <td></td>
+        <td>As folhas esfregam no peito contra dores</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Boca de sapo</td>
+        <td>Aige iorubo</td>
+        <td></td>
+        <td></td>
+        <td>As folhas passam no corpo da índia que viu o Aíge</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Erva Mijona</td>
+        <td>Jugo epa</td>
+        <td></td>
+        <td></td>
+        <td>Esfregam as folhas nas pontas das flechas envenenando-as</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Samambaia Mirim</td>
+        <td>Jomo iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Colocam as folhas nas orelhas quando vão a pescar</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Semente de algodão</td>
+        <td>Roia epe</td>
+        <td></td>
+        <td></td>
+        <td>Socado, o óleo passam nos occipitais (nuca) para terem boa memoria</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Goiabinha do Cerrado</td>
+        <td>Nabure uke jorubo</td>
+        <td></td>
+        <td></td>
+        <td>Mastigam as folhas para gritarem bem alto</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Palmito da gariroba</td>
+        <td>Mariguido Ariri</td>
+        <td></td>
+        <td></td>
+        <td>O caule tenro queimado passam no ventre da mulher para ter filhos
+          (Comem ou chupam também)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Metygo iorubo</td>
+        <td>Cipó de Leite</td>
+        <td></td>
+        <td></td>
+        <td>Comem as folhas para terem voz grossa</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cipó d'água</td>
+        <td>Marugodo uke iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Passam o carvão do cipó na barriga das crianças contra a diarreia infantil</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Bolsa de carneiro</td>
+        <td>Mace inodorewy iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Passam o fruto queimado no peito contra asma</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Peroba do Campo (Ipê)</td>
+        <td>Boigabe iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Esfregam e jogam as folhas evitando serem atingidos pelos raios</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Quidoguro jaivurewy</td>
+        <td>Garrafinha</td>
+        <td></td>
+        <td></td>
+        <td>As cinzas das folhas com almacega (kidoguru) passam no corpo como remédio e para pregarem os enfeites</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Pau doce</td>
+        <td>Araguioro iorubo</td>
+        <td></td>
+        <td></td>
+        <td>As folhas socadas com um pouco de agua usam como vomitório após as picadas de cobras venenosas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Genciana</td>
+        <td>Quiôgo rogo jorubo ore</td>
+        <td></td>
+        <td></td>
+        <td>Esfregam as folhas no rosto para encontrarem muita caça</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Guaraná do Campo</td>
+        <td>Boeco pega iorubo</td>
+        <td></td>
+        <td></td>
+        <td>Esquentam as folhas e colocam sobre os olhos para melhorar as vistas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Congonhas (congonha-de-bugre) </td>
+        <td>Boe itaura coiepa</td>
+        <td></td>
+        <td></td>
+        <td>Tiram a raiz e cheiram contra resfriado</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Capa Rosa</td>
+        <td>Jorubo macarewy</td>
+        <td></td>
+        <td></td>
+        <td>O chá das folhas contra febres</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Sucupira Preta</td>
+        <td>Quie peguru guiguirirewy</td>
+        <td></td>
+        <td></td>
+        <td>Quando as frutas caem, afirmam os bororo que terá chuvas torrenciais</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Breu</td>
+        <td>Baregue equerorewy</td>
+        <td></td>
+        <td></td>
+        <td>Colocam o carvão da madeira com almacega nos arcos para perseguir a onça</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Garrafinha (rasteira)</td>
+        <td>Piodudo iorubo</td>
+        <td></td>
+        <td></td>
+        <td>A raiz e as folhas carbonizadas passam sobre o ventre da mulher para ter o filho com 7 e 8 meses, e com
+          poucas dores</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Joá / juá de espinhos</td>
+        <td>Toguge otarewy</td>
+        <td></td>
+        <td></td>
+        <td>O fruto cortado ao meio, colocam sobre os bubons (forúnculos) para resolverem</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mata Passo Bravo</td>
+        <td>Kegue tororewy</td>
+        <td></td>
+        <td></td>
+        <td>Quando estão querendo matar arara na espera, e esta não aparece, cortam um galho desta planta e colocam
+          sobre o esconderijo em que se encontram e logo parecem as araras</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cinco folhas</td>
+        <td>Meri iorubo</td>
+        <td>Serjania erecta</td>
+        <td>Sapindaceae</td>
+        <td>Quando nas longas caminhadas acham que com a luz do dia não alcançam o lugar desejado para pernoitar, cortam
+          um pau fino desta planta e giram em direção do sol, acreditam que o sol para e espera o índio chegar ao lugar
+          desejado</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/4109992420/media/503f694fef2aab47ffef55e4ca2af6c6</td>
+      </tr>
+      <tr>
+        <td>Raiz de Bugre</td>
+        <td>Kudobo iorubo</td>
+        <td>Cordia salicifolia</td>
+        <td></td>
+        <td>Cogumelo (conhecido como chapéu de sapo) Esmigalhados esfregam na mão e passam nas crianças para serem
+          ativos</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://api.gbif.org/v1/image/cache/fit-in/500x/occurrence/1228242584/media/5f6858639d088f187451ebce58340868</td>
+      </tr>
+      <tr>
+        <td>Raiz de Bugre</td>
+        <td>Reco iorubo</td>
+        <td></td>
+        <td></td>
+        <td>A raiz socada em pequena quantidade com agua e bebida para engordar (Fortificante, tonificante)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ariri (folhas finas palmeira)</td>
+        <td>Boiro</td>
+        <td></td>
+        <td></td>
+        <td>serve para amarrar outras plantas venenosas quando eliminam os seus desafetos</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Velame</td>
+        <td>Amo iorubo</td>
+        <td></td>
+        <td></td>
+        <td>A raiz carbonizada passam no corpo das crianças para não andarem muito</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Assa peixe</td>
+        <td>Uto iorubo</td>
+        <td>Vernonia polysphaera</td>
+        <td>Asteraceae</td>
+        <td>Esfregam as folhas nas mulheres para não adoecerem</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Assa-peixe.jpg/560px-Assa-peixe.jpg</td>
+      </tr>
+      <tr>
+        <td>Ariticum folha média, rasteiro</td>
+        <td>Wiarurewy</td>
+        <td></td>
+        <td></td>
+        <td>Queimam as folhas dentro de casa para evitar doenças
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
