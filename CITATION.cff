@@ -1,20 +1,9 @@
-cff-version: 1.2.0
-message: "Citar esse banco de dados:."
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Gerardi"
-  given-names: "Fabrício"
-  orcid: "https://orcid.org/0002-1438-7336"
-- family-names: "Aldeia Bororo"
-  given-names: "Ipiebaga"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Aldeia Bororo"
-  given-names: "Tadarimana"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Aldeia Bororo"
-  given-names: "Córrego Grande"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "Etnobotânica Bororo"
-version: 0.3
-doi: 
+- family-names: Gerardi
+  given-names: Fabrício Ferraz
+orcid: https://orcid.org/0002-1438-7336
+title:
+version: 0.3.1
 date-released: 2024-10-21
-url: "https://github.com/github-linguist/linguist"
