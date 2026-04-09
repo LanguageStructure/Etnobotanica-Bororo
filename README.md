@@ -28,6 +28,7 @@ Fabrício Ferraz Gerardi
 + Aldeias: Korogedy Pary, Piebaga, Tadarimana 
 + Fabrício Ferraz Gerardi
 + Mariel Kujibo Ekureu
++ João Vitor Aparecido Ortiz
 
 ## Colaboradores
 
